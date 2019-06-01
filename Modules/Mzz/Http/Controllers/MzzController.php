@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Bbc\Http\Controllers;
+namespace Modules\Mzz\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 
-class BbcController extends Controller
+class MzzController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,7 @@ class BbcController extends Controller
      */
     public function index()
     {
-
-        return view('bbc::index');
+        return view('mzz::index');
     }
 
     /**
@@ -24,7 +23,7 @@ class BbcController extends Controller
      */
     public function create()
     {
-        return view('bbc::create');
+        return view('mzz::create');
     }
 
     /**
@@ -42,7 +41,7 @@ class BbcController extends Controller
      */
     public function show()
     {
-        return view('bbc::show');
+        return view('mzz::show');
     }
 
     /**
@@ -51,7 +50,7 @@ class BbcController extends Controller
      */
     public function edit()
     {
-        return view('bbc::edit');
+        return view('mzz::edit');
     }
 
     /**
