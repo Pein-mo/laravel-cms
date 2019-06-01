@@ -14,6 +14,7 @@ class MzzController extends Controller
      */
     public function index()
     {
+        dd(111);
         return view('mzz::index');
     }
 
