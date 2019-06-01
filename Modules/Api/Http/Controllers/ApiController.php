@@ -14,6 +14,7 @@ class ApiController extends Controller
      */
     public function index()
     {
+        dd('api');
         return view('api::index');
     }
 
