@@ -14,7 +14,6 @@ class ApiController extends Controller
      */
     public function index()
     {
-        dd(33);
         return view('api::index');
     }
 
