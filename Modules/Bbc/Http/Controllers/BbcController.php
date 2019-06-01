@@ -14,7 +14,7 @@ class BbcController extends Controller
      */
     public function index()
     {
-        dd('bbc');
+        
         return view('bbc::index');
     }
 
