@@ -16,7 +16,6 @@ class CategoryController extends Controller
      */
     public function index(Category $category)
     {
-        dd(1);
         $catetories = $category->getAll();
 
 //        dd($catetories);
