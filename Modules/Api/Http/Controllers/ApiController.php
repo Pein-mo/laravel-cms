@@ -71,9 +71,9 @@ class ApiController extends Controller
     }
 
     public function hook(){
-        dd('hook');
+//        dd('hook');
         $secret = "q20031120";
-        $path = "/www/wwwroot/lh.mo1120.com";
+        $path = "/www/wwwroot/laravel.mo1120.com";
         // Headers deliveried from GitHub
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         if ($signature) {
