@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d94b7ef5cc9325ae0011c7e65fef6d",
+    "content-hash": "d9fac375fc878958bb5eace44662d5ff",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -906,6 +906,45 @@
                 "向军大叔"
             ],
             "time": "2018-08-29T09:17:46+00:00"
+        },
+        {
+            "name": "houdunwang/wechat",
+            "version": "v2.0.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/wechat.git",
+                "reference": "232023a9840175f7e284869f3df3a2dfe94d4979"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/houdunwang/wechat/zipball/232023a9840175f7e284869f3df3a2dfe94d4979",
+                "reference": "232023a9840175f7e284869f3df3a2dfe94d4979",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Houdunwang\\WeChat\\WeChatProvider"
+                    ],
+                    "aliases": {
+                        "WeChat": "Houdunwang\\WeChat\\WeChatFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "Houdunwang\\WeChat\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/"
         },
         {
             "name": "jakub-onderka/php-console-color",
