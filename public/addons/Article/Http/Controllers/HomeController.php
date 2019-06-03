@@ -14,6 +14,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $template = \HDModule::config('article.config.template');
+
 //        $paths = [public_path('templates/' . $template)];
 //        View::setFinder(new FileViewFinder(App::make('files'), $paths));
         $finder = app('view')->getFinder();
@@ -22,6 +23,7 @@ class HomeController extends Controller
 
     public function index()
     {
+
         return view('index');
     }
 
