@@ -9,20 +9,15 @@ use Modules\Article\Services\TemplateService;
 
 class TemplateController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     * @return Response
-     */
     public function index(TemplateService $templateService)
     {
-       $templates = $templateService->all();
-
-        return view('article::template.index',compact('templates'));
+        $templates = $templateService->all();
+        return view('article::template.index', compact('templates'));
     }
 
-    public function setDefaultTemplate($name){
-        \HDModule::saveConfig(['template'=>$name],'config');
+    public function setDefaultTemplate($name)
+    {
+        \HDModule::saveConfig(['template' => $name], 'config');
         return back()->with('success', '模板设置成功');
     }
-
 }

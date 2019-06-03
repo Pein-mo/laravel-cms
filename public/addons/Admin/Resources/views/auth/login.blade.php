@@ -26,15 +26,15 @@
                     <div class="card-header"><img src="{{asset('theme/beagle/img/logo-xx.png')}}" alt="logo" width="120" height="27" class="logo-img">
                         <span class="splash-description">登录系统</span></div>
                     <div class="card-body">
-                        <form action="{{route('admin.login')}}" method="post">
+                        <form action="/admin/login" method="post">
                             @csrf
-                            @include('layouts._error')
+                            @include('layouts._validate')
                             <div class="login-form">
                                 <div class="form-group">
-                                    <input id="name" type="text" name="name" placeholder="系统帐号" autocomplete="off" class="form-control" value="admin">
+                                    <input id="name" type="text" name="name" placeholder="请输入后台帐号" value="admin" autocomplete="off" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <input id="password" type="password" name="password" placeholder="登录密码" class="form-control" value="q20031120">
+                                    <input id="password" type="password" name="password" value="admin888" placeholder="登录密码" class="form-control">
                                 </div>
                                 <div class="form-group row login-tools">
                                     <div class="col-6 login-remember">

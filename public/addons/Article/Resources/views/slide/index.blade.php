@@ -13,7 +13,7 @@
                         <thead>
                         <tr>
                             <th style="width: 10%;">编号</th>
-                            <th>标题</th><th>链接</th><th>图片</th><th>查看次数</th><th>是否开启</th>
+                            <th>标题</th><th>链接</th><th>图片</th><th>查看次数</th><th>状态</th>
                             <th>创建时间</th>
                             <th>修改时间</th>
                             <th>&nbsp;</th>

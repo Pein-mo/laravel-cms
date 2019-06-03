@@ -20,7 +20,7 @@
       ),
       2 => 
       array (
-        'title' => '模版管理',
+        'title' => '模板管理',
         'permission' => '',
         'url' => '/article/template',
       ),

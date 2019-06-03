@@ -25,7 +25,7 @@ class AdminServiceProvider extends ServiceProvider
         $this->registerConfig();
         $this->registerViews();
         $this->registerFactories();
-        $this->loadMigrationsFrom(__DIR__.'/../Database/Migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
     }
 
     /**
@@ -85,19 +85,19 @@ class AdminServiceProvider extends ServiceProvider
         if (is_dir($langPath)) {
             $this->loadTranslationsFrom($langPath, 'admin');
         } else {
-            $this->loadTranslationsFrom(__DIR__.'/../Resources/lang', 'admin');
+            $this->loadTranslationsFrom(__DIR__ .'/../Resources/lang', 'admin');
         }
     }
 
     /**
      * Register an additional directory of factories.
-     *
+     * 
      * @return void
      */
     public function registerFactories()
     {
         if (! app()->environment('production')) {
-            app(Factory::class)->load(__DIR__.'/../Database/factories');
+            app(Factory::class)->load(__DIR__ . '/../Database/factories');
         }
     }
 

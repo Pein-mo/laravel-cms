@@ -17,7 +17,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($catetories as $category)
+                @foreach($categories as $category)
                     <tr>
                         <td>{{$category['id']}}</td>
                         <td>{!! $category['_name'] !!}</td>

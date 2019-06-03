@@ -6,14 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Content extends Model
 {
-    protected $fillable = ['title','author','content','thumb','click','istop','category_id'];
+    protected $fillable = ['title', 'author', 'content', 'thumb', 'click', 'category_id', 'istop'];
 
     public function category()
     {
         return $this->belongsTo(Category::class);
     }
 
-    public function comment(){
+    public function comment()
+    {
         return $this->hasMany(Comment::class);
     }
 }

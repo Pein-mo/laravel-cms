@@ -16,10 +16,8 @@ class CategoryController extends Controller
      */
     public function index(Category $category)
     {
-        $catetories = $category->getAll();
-
-//        dd($catetories);
-        return view('article::category.index',compact('catetories'));
+        $categories = $category->getAll();
+        return view('article::category.index', compact('categories'));
     }
 
     /**
@@ -28,9 +26,8 @@ class CategoryController extends Controller
      */
     public function create(Category $category)
     {
-
         $catetories = $category->getAll();
-        return view('article::category.create',compact('catetories','categorys'));
+        return view('article::category.create', compact('catetories'));
     }
 
     /**
@@ -38,7 +35,7 @@ class CategoryController extends Controller
      * @param  Request $request
      * @return Response
      */
-    public function store(CategoryRequest $categoryRequest,Category $category)
+    public function store(CategoryRequest $categoryRequest, Category $category)
     {
         $category->fill($categoryRequest->all());
         $category->save();
@@ -60,10 +57,8 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-
         $catetories = $category->getAll($category);
-//        dump($catetories);
-        return view('article::category.edit',compact('catetories','category'));
+        return view('article::category.edit', compact('catetories', 'category'));
     }
 
     /**
@@ -71,24 +66,24 @@ class CategoryController extends Controller
      * @param  Request $request
      * @return Response
      */
-    public function update(CategoryRequest $categoryRequest,Category $category)
+    public function update(CategoryRequest $categoryRequest, Category $category)
     {
         $category->update($categoryRequest->all());
         return redirect('/article/category')->with('success', '栏目修改成功');
     }
 
     /**
-     * Remove the specified resource from storage.
-     * @return Response
+     * 删除栏目
+     * @param Category $category
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
      */
     public function destroy(Category $category)
     {
-        if($category->hasChildCategory()){
-            return back()->with('danger','请先删除子栏目');
-
+        if ($category->hasChildCategory()) {
+            return back()->with('danger', '请先删除子栏目');
         }
         $category->delete();
-        session()->flash('success','删除栏目成功');
-        return back();
+        return redirect('/article/category')->with('success', '栏目删除成功');
     }
 }

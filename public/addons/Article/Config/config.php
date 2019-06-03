@@ -1,4 +1,4 @@
 <?php return array (
-  'name' => 'Article',
+  'name' => '文章系统',
   'template' => 'default',
 );

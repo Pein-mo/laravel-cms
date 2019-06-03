@@ -15,7 +15,8 @@ class AdminDatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
-        $this->call(ModulesSeederTableSeeder::class);
+
         // $this->call("OthersTableSeeder");
+        $this->call(ModuleSeederTableSeeder::class);
     }
 }

@@ -23,7 +23,7 @@ class ContentSeederTableSeeder extends Seeder
             ['name'=>'评测','pid'=>0],
             ['name'=>'编程','pid'=>0],
         ]);
-        factory(Content::class,100)->create();
         // $this->call("OthersTableSeeder");
+        factory(Content::class,100)->create();
     }
 }

@@ -1,10 +1,12 @@
 <?php
+
 namespace Modules\Article\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Modules\Article\Entities\Comment;
 use Modules\Article\Http\Requests\CommentRequest;
+
 class CommentController extends Controller
 {
     //显示列表
@@ -17,7 +19,7 @@ class CommentController extends Controller
     //创建视图
     public function create(Comment $comment)
     {
-        return view('article::comment.create',compact('comment'));
+        return view('article::comment.create', compact('comment'));
     }
 
     //保存数据
@@ -43,13 +45,13 @@ class CommentController extends Controller
     public function update(CommentRequest $request, Comment $comment)
     {
         $comment->update($request->all());
-        return redirect('/article/comment')->with('success','更新成功');
+        return redirect('/article/comment')->with('success', '更新成功');
     }
 
     //删除模型
     public function destroy(Comment $comment)
     {
         $comment->delete();
-        return redirect('article/comment')->with('success','删除成功');
+        return redirect('article/comment')->with('success', '删除成功');
     }
 }

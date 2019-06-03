@@ -9,10 +9,6 @@
 namespace Modules\Article\Services;
 
 use Blade;
-
-//use Houdunwang\Arr\Arr;
-use Houdunwang\Arr\Arr;
-use Modules\Article\Entities\Category;
 use Modules\Article\Entities\Content;
 
 class TagService
@@ -20,16 +16,15 @@ class TagService
     public function make()
     {
         $this->slide();
-
         $this->category();
         $this->lists();
     }
     //文章
     public function lists(){
-        Blade::directive('list',function($expression){
+       Blade::directive('list',function($expression){
 
-            $expression = $expression ?: '[]';
-            $php=<<<php
+           $expression = $expression ?: '[]';
+           $php=<<<php
 <?php
     \$params = $expression;
     \$db = \Modules\Article\Entities\Content::where('id','>',0);
@@ -49,8 +44,8 @@ class TagService
     \$field['url'] = '/article/content/'.\$field['id'].'.html';
 ?>
 php;
-            return $php;
-        });
+return $php;
+       });
         Blade::directive('endList',function(){
             return "<?php endforeach;?>";
         });
@@ -60,21 +55,19 @@ php;
     {
         Blade::directive('category', function ($expression) {
             $expression = $expression ?: '[]';
-
-//            (new \Houdunwang\Arr\Arr())->channelList();
             $php = <<<php
 <?php
 \$params = $expression;
 \$data = \Modules\Article\Entities\Category::get()->toArray();
-\$data = (new \Houdunwang\Arr\Arr())->channelList(\$data, 0,"&nbsp;", 'id');
+\$data = \houdunwang\arr\Arr::channelList(\$data, 0,"&nbsp;", 'id');
 foreach(\$data as \$field):
 \$field['url'] = '/article/lists/'.\$field['id'].'.html';
 ?>
 php;
-            return $php;
+return $php;
         });
         Blade::directive('endCategory', function ($expression) {
-            return "<?php endforeach;?>";
+        return "<?php endforeach;?>";
         });
     }
 
@@ -82,7 +75,7 @@ php;
     public function slide()
     {
         Blade::directive('slide', function ($expression) {
-            $expression = $expression ?: '["height"=>"300"]';
+            $expression = $expression ?: '["height"=>"300px"]';
             $php = <<<php
  <div class="swiper-container">
     <div class="swiper-wrapper">

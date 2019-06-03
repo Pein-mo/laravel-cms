@@ -22,11 +22,11 @@ class SlideRequest extends FormRequest
     public function messages()
     {
         return [
-            'title.required' => '标题不能为空',
-            'url.required' => '链接不能为空',
-            'pic.required' => '图片不能为空',
-            'click.required' => '默认点击不能为空',
-            'enable.required' => '请选择是否启用',
+            'title.required' => '标题 不能为空',
+            'url.required' => '链接 不能为空',
+            'pic.required' => '图片 不能为空',
+            'click.required' => '点击数 不能为空',
+            'enable.required' => '状态 不能为空',
         ];
     }
 

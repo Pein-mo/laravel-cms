@@ -15,7 +15,7 @@ class WxDatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
-
+        $this->call(WxConfigTableSeeder::class);
         // $this->call("OthersTableSeeder");
     }
 }

@@ -10,7 +10,7 @@
             <div class="card-body card-body-contrast">
                 @csrf @method('PUT')
                 <div class="form-group row">
-    <label for="user_id" class="col-12 col-sm-3 col-form-label text-md-right">用户id</label>
+    <label for="user_id" class="col-12 col-sm-3 col-form-label text-md-right">用户编号</label>
     <div class="col-12 col-md-9">
         <input id="user_id" name="user_id" type="text"
                value="{{ $comment['user_id']??old('user_id') }}"
@@ -23,11 +23,13 @@
     </div>
 </div>
 <div class="form-group row">
-    <label for="content" class="col-12 col-sm-3 col-form-label text-md-right"  style="padding-top:initial;">评论内容</label>
+    <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">评论内容</label>
     <div class="col-12 col-md-9">
-        <hd-simditor name="content" url="/upload-simditor">{{ $comment['content']??old('content') }}</hd-simditor>
+        <input id="content" name="content" type="text"
+               value="{{ $comment['content']??old('content') }}"
+               class="form-control form-control-sm form-control{{ $errors->has('content') ? ' is-invalid' : '' }}">
         @if ($errors->has('content'))
-            <span class="text-danger">
+            <span class="invalid-feedback" role="alert">
                 <strong>{{ $errors->first('content') }}</strong>
             </span>
         @endif

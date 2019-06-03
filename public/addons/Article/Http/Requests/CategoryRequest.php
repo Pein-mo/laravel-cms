@@ -6,8 +6,6 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class CategoryRequest extends FormRequest
 {
-
-
     /**
      * Get the validation rules that apply to the request.
      *
@@ -15,11 +13,9 @@ class CategoryRequest extends FormRequest
      */
     public function rules()
     {
-        $category = $this->route('category');
-//        dd($role);
-        $id = $category ? $category->id : null;
+        $id = $this->route('category') ? $this->route('category')->id : 0;
         return [
-            'name' => 'required|unique:categories,name,'.$id,
+            'name' => 'required|unique:categories,name,' . $id
         ];
     }
 
@@ -27,7 +23,7 @@ class CategoryRequest extends FormRequest
     {
         return [
             'name.required' => '栏目名称不能为空',
-            'name.unique' => '栏目名称已存在',
+            'name.unique' => '栏目已经存在'
         ];
     }
 

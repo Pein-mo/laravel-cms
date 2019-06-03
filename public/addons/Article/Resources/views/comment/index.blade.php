@@ -5,7 +5,6 @@
         <div class="tab-container">
             <ul role="tablist" class="nav nav-tabs">
                 <li class="nav-item"><a href="/article/comment" class="nav-link active">评论列表</a></li>
-                <li class="nav-item"><a href="/article/comment/create" class="nav-link">添加评论</a></li>
             </ul>
             <div class="card card-contrast card-border-color-success">
                 <div class="card-body">
@@ -13,7 +12,7 @@
                         <thead>
                         <tr>
                             <th style="width: 10%;">编号</th>
-                            <th>用户id</th><th>评论内容</th><th>文章编号</th>
+                            <th>用户编号</th><th>评论内容</th><th>文章编号</th>
                             <th>创建时间</th>
                             <th>修改时间</th>
                             <th>&nbsp;</th>
@@ -27,7 +26,6 @@
                                 <td>{!! $d['created_at'] !!}</td>
                                 <td>{!! $d['updated_at'] !!}</td>
                                 <td class="text-right">
-                                    <a href="/article/comment/{{$d['id']}}/edit" class="btn btn-secondary">编辑</a>
                                     <button type="button" class="btn btn-secondary btn-danger" onclick="del({{$d['id']}},this)">删除</button>
                                     <form action="/article/comment/{{$d['id']}}" hidden method="post">
                                         @csrf @method('DELETE')

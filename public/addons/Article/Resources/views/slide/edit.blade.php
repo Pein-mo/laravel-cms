@@ -60,7 +60,7 @@
     </div>
 </div>
 <div class="form-group row">
-    <label for="enable" class="col-12 col-sm-3 col-form-label text-md-right" style="padding-top:initial;">是否开启</label>
+    <label for="enable" class="col-12 col-sm-3 col-form-label text-md-right" style="padding-top:initial;">状态</label>
     <div class="col-12 col-md-9">
                     <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio"

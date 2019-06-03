@@ -4,7 +4,7 @@
             @if($groups  = \HDModule::getMenuByModule())
                 @foreach($groups as $group)
                         @if(\HDModule::hadPermission($group['permission'],'admin'))
-                            <li class="parent">
+                            <li class="parent open">
                                 <a href="#"><i class="{{$group['icon']}}"></i>&nbsp;<span>{{$group['title']}}</span></a>
                                 <ul class="sub-menu">
                                     @foreach($group['menus'] as $menu)

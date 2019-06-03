@@ -15,8 +15,9 @@ class ArticleDatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
+
+        // $this->call("OthersTableSeeder");
         $this->call(ContentSeederTableSeeder::class);
         $this->call(SlideSeederTableSeeder::class);
-        // $this->call("OthersTableSeeder");
     }
 }

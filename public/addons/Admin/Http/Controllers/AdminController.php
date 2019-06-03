@@ -14,8 +14,6 @@ class AdminController extends Controller
      */
     public function index()
     {
-//        dump(app('hd-menu')->all());
-//        dump($groups  = \HDModule::getMenuByModule());
         return view('admin::index');
     }
 

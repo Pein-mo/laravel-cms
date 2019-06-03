@@ -2,7 +2,7 @@
 
 namespace Modules\Article\Entities;
 
-use Houdunwang\Arr\Arr;
+use houdunwang\arr\Arr;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -10,31 +10,30 @@ class Category extends Model
     protected $fillable = ['name', 'pid'];
 
     /**
+     * 获取树状栏目
      * @param null $category
-     * @return 获取树状菜单
+     * @return mixed
      */
     public function getAll($category = null)
     {
         $data = $this->get()->toArray();
         if (!is_null($category)) {
-
-            foreach ($data as $k=>$v){
-                $data[$k]['_selected'] = $v['id'] == $category['pid'];
-                $data[$k]['_disabled'] = $v['id'] == $category['id'] || (new Arr())->isChild($data,$v['id'],$category['id'],'id',$fidldPid='pid');
+            foreach ($data as $k => $d) {
+                $data[$k]['_selected'] = $category['pid'] == $d['id'];
+                $data[$k]['_disabled'] = $category['id'] == $d['id'] || Arr::isChild($data, $d['id'], $category['id'], 'id');
             }
-
         }
-
-        $data = (new Arr())->tree($data, 'name', 'id');
-//        dd($data);
+        $data = Arr::tree($data, 'name', 'id');
         return $data;
     }
 
     /**
-     * @return 是否拥有子菜单
+     * 是否拥有子栏目
+     * @return mixed
      */
-    public function hasChildCategory(){
+    public function hasChildCategory()
+    {
         $data = $this->get()->toArray();
-        return (new Arr())->hasChild($data,$this->id);
+        return Arr::hasChild($data, $this->id);
     }
 }

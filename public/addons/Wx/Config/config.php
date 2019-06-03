@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'Wx'
+    'name' => '微信公众号'
 ];
