@@ -19,6 +19,7 @@ class WxConfigController extends Controller
     //保存数据
     public function store(WxConfigRequest $request,WxConfig $wx_config)
     {
+        dd(111);
         $wx_config->truncate();
         foreach ($request->all() as $name =>$value){
             $wx_config->insert(['name'=>$name,'value'=>$value]);
