@@ -354,7 +354,22 @@
         </div>
     </nav>
 </div>
-
+{{--<link rel="stylesheet" href="{{asset('css/app.css')}}">--}}
+{{--<script src="{{mix('js/app.js')}}"></script>--}}
+{{--<link rel="stylesheet" href="{{asset('css/app.css')}}">--}}
+{{--<script src="{{asset('plugin/menu.js')}}"></script>--}}
+{{--<script src="{{asset('theme/beagle/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js')}}"--}}
+{{--        type="text/javascript"></script>--}}
+{{--<script src="{{asset('theme/beagle/js/app.js')}}" type="text/javascript"></script>--}}
+{{--<script type="text/javascript">--}}
+{{--    $(document).ready(function () {--}}
+{{--        //initialize the javascript--}}
+{{--        App.init();--}}
+{{--    });--}}
+{{--</script>--}}
+{{--<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>--}}
+{{--<script src="{{asset('plugin/pjax/pjax.js')}}"></script>--}}
+{{--<link rel="stylesheet" href="{{asset('plugin/pjax/pjax.css')}}">--}}
 <script>
 
     require(['bootstrap','/plugin/pjax/pjax.js']);
