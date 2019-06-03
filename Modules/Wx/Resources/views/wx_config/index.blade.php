@@ -3,7 +3,7 @@
     <div class="card" id="app">
         <div class="card-header">配置管理</div>
         <ul role="tablist" class="nav nav-tabs">
-            <li class="nav-item"><a href="/wx/wx_config" class="nav-link">配置列表</a></li>
+{{--            <li class="nav-item"><a href="/wx/wx_config" class="nav-link">配置列表</a></li>--}}
             <li class="nav-item"><a href="#" class="nav-link active">添加配置</a></li>
         </ul>
         <form action="/wx/wx_config" method="post">
