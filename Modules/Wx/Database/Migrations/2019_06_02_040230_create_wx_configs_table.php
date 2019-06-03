@@ -11,7 +11,7 @@ class CreateWxConfigsTable extends Migration
     {
         Schema::create('wx_configs', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+
             $table->string('name')->comment('配置名称|input');
             $table->string('value')->comment('配置项|input');
 
