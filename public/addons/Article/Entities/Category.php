@@ -23,7 +23,7 @@ class Category extends Model
                 $data[$k]['_disabled'] = $category['id'] == $d['id'] || Arr::isChild($data, $d['id'], $category['id'], 'id');
             }
         }
-        $data = Arr::tree($data, 'name', 'id');
+        $data = (new Arr())->tree($data, 'name', 'id');
         return $data;
     }
 

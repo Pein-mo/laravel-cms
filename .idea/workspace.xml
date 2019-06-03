@@ -2,179 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/addons/Admin/Entities/Module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/ModuleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/module/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/module/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Config/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Config/menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Config/permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Console/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Database/Migrations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2018_08_03_030652_create_bases_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Database/Seeders/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Database/Seeders/BaseDatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Database/factories/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Entities/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/Middleware/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/Requests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/Requests/BaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Http/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Providers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Providers/BaseServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/assets/js/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/lang/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/Tests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/start.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Base/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Console/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Migrations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Migrations/2018_08_05_102654_create_news_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Seeders/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Seeders/NewsDatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/factories/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Entities/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Entities/News.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Middleware/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Requests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Requests/NewsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Providers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Providers/NewsServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/lang/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Tests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/start.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/News/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2018_08_01_020348_create_wx_menus_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2018_08_02_030953_create_wx_rules_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2018_08_02_031126_create_wx_keywords_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Seeders/WxConfigTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Entities/WxReplyBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Entities/WxRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Http/Requests/WxMenuRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Http/Requests/WxReplyBaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wechat_server/rule.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Config/menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Config/menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Config/permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Config/permission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Database/Migrations/2019_05_13_034245_create_modules_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Database/Migrations/2018_07_17_012829_create_modules_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Database/Seeders/AdminDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Database/Seeders/AdminDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Database/Seeders/ModulesSeederTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Database/Seeders/ModuleSeederTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Entities/Modules.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/ModulesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Controllers/RoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Requests/ModulesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Requests/ModuleRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/Requests/RoleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/Requests/RoleRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Providers/AdminServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Providers/AdminServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/modules/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/modules/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/modules/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/module/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/role/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/role/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Services/ModuleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Services/ModuleService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Config/menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Config/menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Database/Migrations/2019_05_26_104652_create_slides_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Database/Migrations/2018_07_21_115739_create_slides_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Database/Migrations/2019_05_31_124552_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Database/Migrations/2018_07_22_015519_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Database/Seeders/ArticleDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Database/Seeders/ArticleDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Database/Seeders/ContentSeederTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Database/Seeders/ContentSeederTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Database/factories/ContentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Database/factories/ContentFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/addons/Article/Entities/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Entities/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Entities/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Entities/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Entities/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Entities/Content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/ContentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/TemplateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/TemplateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Requests/CategoryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Requests/ContentRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Requests/ContentRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Requests/SlideRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Requests/SlideRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Providers/ArticleServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Providers/ArticleServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/category/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/comment/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Resources/views/slide/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Services/TagService.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Services/TagService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Services/TemplateService.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Services/TemplateService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Config/menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Config/menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_02_040230_create_wx_configs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2018_07_30_024732_create_wx_configs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Database/Seeders/WxDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Database/Seeders/WxDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxConfigController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxConfigController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_config/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_config/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/start.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/start.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/plugin/pjax/pjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugin/pjax/pjax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +44,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/addons/Article/Entities/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="e#44#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -279,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/Article/Database/factories/ContentFactory.php" />
         <option value="$PROJECT_DIR$/Modules/Article/Database/Seeders/ContentSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/public/templtes/default/content.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Article/Database/Seeders/ArticleDatabaseSeeder.php" />
@@ -330,6 +170,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/public/plugin/pjax/pjax.js" />
+        <option value="$PROJECT_DIR$/public/addons/Article/Entities/Category.php" />
       </list>
     </option>
   </component>
@@ -461,6 +302,27 @@
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -559,15 +421,16 @@
       <workItem from="1559275298847" duration="13775000" />
       <workItem from="1559383238668" duration="2098000" />
       <workItem from="1559444867620" duration="8620000" />
-      <workItem from="1559534296584" duration="17457000" />
+      <workItem from="1559534296584" duration="18252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314545000" />
+    <option name="totallyTimeSpent" value="315340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27164805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -632,27 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Database/Migrations/2019_05_31_124552_create_comments_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -959,6 +801,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8982">
           <caret line="374" column="43" selection-start-line="374" selection-start-column="39" selection-end-line="374" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Article/Entities/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#44#67#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
