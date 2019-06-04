@@ -12,7 +12,7 @@ class TemplateService
 {
     public function all()
     {
-        dd(glob(public_path('uploads/*')));
+        dd(glob(public_path('templates/*')));
         $dirs = glob(public_path('templates/*'));
 
         $configs = [];
