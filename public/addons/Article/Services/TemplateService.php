@@ -12,7 +12,7 @@ class TemplateService
 {
     public function all()
     {
-        
+
         $dirs = glob(public_path('templtes/*'));
 
         $configs = [];

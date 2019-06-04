@@ -18,7 +18,7 @@ class HomeController extends Controller
 //        $paths = [public_path('templates/' . $template)];
 //        View::setFinder(new FileViewFinder(App::make('files'), $paths));
         $finder = app('view')->getFinder();
-        $finder->prependLocation(public_path('templates/' . $template));
+        $finder->prependLocation(public_path('templtes/' . $template));
     }
 
     public function index()
