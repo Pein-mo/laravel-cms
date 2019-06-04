@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/public/addons/Article/Services/TemplateService.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -309,12 +309,6 @@
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="templtes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -416,12 +410,12 @@
       <workItem from="1559383238668" duration="2098000" />
       <workItem from="1559444867620" duration="8620000" />
       <workItem from="1559534296584" duration="20776000" />
-      <workItem from="1559610816883" duration="3770000" />
+      <workItem from="1559610816883" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321634000" />
+    <option name="totallyTimeSpent" value="321708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -773,7 +767,7 @@
     <entry file="file://$PROJECT_DIR$/public/addons/Article/Services/TemplateService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
