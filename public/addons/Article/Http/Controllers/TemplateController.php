@@ -12,7 +12,7 @@ class TemplateController extends Controller
     public function index(TemplateService $templateService)
     {
         $templates = $templateService->all();
-        dd($templates);
+
         return view('article::template.index', compact('templates'));
     }
 
