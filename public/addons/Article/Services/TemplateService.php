@@ -12,8 +12,9 @@ class TemplateService
 {
     public function all()
     {
+        dd(public_path('js/*'));
         $dirs = glob(public_path('templates/*'));
-        dd($dirs);
+
         $configs = [];
         foreach ($dirs as $dir) {
             if ($config = $this->parseConfig($dir)) {
