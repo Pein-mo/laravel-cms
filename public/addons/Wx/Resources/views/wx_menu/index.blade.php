@@ -4,7 +4,7 @@
 @endsection
 @section('content')
     <div class="card" id="app">
-        <div class="card-header">微信菜单管理</div>
+        <div class="card-header">微信菜单管理@{{menus}}</div>
 
         <form action="/wx/wx_menu" method="post">
             <div class="card-body card-body-contrast">
