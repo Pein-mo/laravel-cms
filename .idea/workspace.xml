@@ -46,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <caret line="22" column="138" selection-start-line="22" selection-start-column="138" selection-end-line="22" selection-end-column="138" />
             </state>
           </provider>
         </entry>
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="420">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -195,8 +195,8 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_05_065850_create_wx_menus_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js" />
       </list>
     </option>
   </component>
@@ -469,12 +469,12 @@
       <workItem from="1559534296584" duration="20776000" />
       <workItem from="1559610816883" duration="5241000" />
       <workItem from="1559699792512" duration="9446000" />
-      <workItem from="1559723487317" duration="12200000" />
+      <workItem from="1559723487317" duration="12837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344751000" />
+    <option name="totallyTimeSpent" value="345388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -857,17 +857,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <caret line="22" column="138" selection-start-line="22" selection-start-column="138" selection-end-line="22" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>

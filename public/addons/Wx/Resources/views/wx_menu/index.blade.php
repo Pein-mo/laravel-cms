@@ -19,8 +19,8 @@
                                         @{{v.name}}
                                     </h5>
                                     <dl>
-                                        <dd><i class="fa fa-plus-square" aria-hidden="true"></i>汽车</dd>
-                                        <dd><i class="fa fa-minus-square" aria-hidden="true"></i>游戏</dd>
+                                        <dd><i @click="addSubMenu(v)" class="fa fa-plus-square" aria-hidden="true"></i>添加子菜单</dd>
+                                        <dd v-if="(v1,i1) in v.sub_button"><i class="fa fa-minus-square" aria-hidden="true"></i>@{{v1.name}}</dd>
                                     </dl>
                                 </div>
                                 <div class="menu" v-if="menus.length<3">
