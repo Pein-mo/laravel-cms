@@ -12,6 +12,9 @@ define(['vue'],function (vue) {
                         this.menus.push(item)
                     }
 
+                },
+                delMenu(pos){
+                    this.menus.splice(pos,1);
                 }
             }
         })

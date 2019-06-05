@@ -14,10 +14,13 @@
                         <div class="mobile">
                             <div class="menu-container">
                                 <div class="menu" v-for="(v,i) in menus">
-                                    <h5>@{{v.name}}</h5>
+                                    <h5 @click="delMenu(i)">
+                                        <i class="fa fa-minus-square" aria-hidden="true"></i>
+                                        @{{v.name}}
+                                    </h5>
                                     <dl>
-                                        <dd>汽车</dd>
-                                        <dd>游戏</dd>
+                                        <dd><i class="fa fa-plus-square" aria-hidden="true"></i>汽车</dd>
+                                        <dd><i class="fa fa-minus-square" aria-hidden="true"></i>游戏</dd>
                                     </dl>
                                 </div>
                                 <div class="menu" v-if="menus.length<3">
