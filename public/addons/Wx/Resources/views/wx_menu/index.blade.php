@@ -13,32 +13,82 @@
                     <div class="col-sm-4">
                         <div class="mobile">
                             <div class="menu-container">
-                                <div class="menu">
-                                    <h5>新闻</h5>
+                                <div class="menu" v-for="(v,i) in menus">
+                                    <h5>@{{name}}</h5>
                                     <dl>
                                         <dd>汽车</dd>
                                         <dd>游戏</dd>
                                     </dl>
                                 </div>
-                                <div class="menu">
-                                    <h5>新闻</h5>
-                                    <dl>
-                                        <dd>汽车</dd>
-                                        <dd>游戏</dd>
-                                    </dl>
-                                </div>
-                                <div class="menu">
-                                    <h5>新闻</h5>
-                                    <dl>
-                                        <dd>汽车</dd>
-                                        <dd>游戏</dd>
-                                    </dl>
-                                </div>
+                                <div class="menu"><h5 @click="add()">添加</h5></div>
 
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="col-sm-8">
+                        <div class="card">
+                            <div class="card-header">
+                                基本设置
+                            </div>
+                            <div class="card-block">
+                                <div class="form-group row">
+                                    <label for="inputSmall"
+                                           class="col-12 col-sm-3 col-form-label text-sm-right">菜单名称</label>
+                                    <div class="col-12 col-sm-8 col-lg-6">
+                                        <input type="text" class="form-control form-control-sm" name="name">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                菜单
+                            </div>
+                            <div class="card-block">
+                                <div class="form-group row">
+                                    <label for="inputSmall"
+                                           class="col-12 col-sm-3 col-form-label text-sm-right">菜单</label>
+                                    <div class="col-12 col-sm-8 col-lg-6">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                </div>
+                                <div class="form-group row pt-1 pb-1">
+                                    <label class="col-12 col-sm-3 col-form-label text-sm-right">动作</label>
+                                    <div class="col-12 col-sm-8 col-lg-6 form-check mt-2">
+                                        <label class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" name="radio-inline" value="view"
+                                                   class="custom-control-input">
+                                            <span class="custom-control-label">链接</span>
+                                        </label>
+                                        <label class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" name="radio-inline" value="click"
+                                                   class="custom-control-input">
+                                            <span class="custom-control-label">关键词</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputSmall"
+                                           class="col-12 col-sm-3 col-form-label text-sm-right">链接</label>
+                                    <div class="col-12 col-sm-8 col-lg-6">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputSmall"
+                                           class="col-12 col-sm-3 col-form-label text-sm-right">关键词</label>
+                                    <div class="col-12 col-sm-8 col-lg-6">
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer text-muted">
+                                <textarea name="data" hidden>@{{ menus }}</textarea>
+                                <button class="btn-primary btn">保存菜单</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -50,8 +100,8 @@
 @endsection
 @section('scripts')
     <script>
-        require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"],function (index) {
-            index();
+        require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"], function (index) {
+            index([]);
         })
     </script>
 
