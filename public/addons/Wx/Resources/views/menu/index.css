@@ -27,5 +27,6 @@
 .menu-container .menu dl dd {
   border: solid 1px #dddddd;
   text-align: center;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=index.css.map */
