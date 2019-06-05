@@ -20,7 +20,7 @@
                                     </h5>
                                     <dl>
                                         <dd><i @click="addSubMenu(v)" class="fa fa-plus-square" aria-hidden="true"></i>添加子菜单</dd>
-                                        <dd v-if="(m,n) in v.sub_button"><i class="fa fa-minus-square" aria-hidden="true"></i></dd>
+{{--                                        <dd v-if="(m,n) in v.sub_button"><i class="fa fa-minus-square" aria-hidden="true"></i></dd>--}}
                                     </dl>
                                 </div>
                                 <div class="menu" v-if="menus.length<3">
