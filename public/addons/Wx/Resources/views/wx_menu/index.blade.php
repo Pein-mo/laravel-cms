@@ -1,4 +1,7 @@
 @extends('admin::layouts.master')
+@section('head')
+    <link rel="stylesheet" href="{{asset('addons/Wx/Resources/views/menu/index.css')}}">
+@endsection
 @section('content')
     <div class="card" id="app">
         <div class="card-header">微信菜单管理</div>
@@ -6,18 +9,36 @@
         <form action="/wx/wx_menu" method="post">
             <div class="card-body card-body-contrast">
                 @csrf
-                <div class="form-group row">
-                    <label for="data" class="col-12 col-sm-3 col-form-label text-md-right">标题</label>
-                    <div class="col-12 col-md-9">
-                        <input id="data" name="data" type="text"
-                               value="{{ $wx_menu['data']??old('data') }}"
-                               class="form-control form-control-sm form-control{{ $errors->has('data') ? ' is-invalid' : '' }}">
-                        @if ($errors->has('data'))
-                            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('data') }}</strong>
-            </span>
-                        @endif
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="mobile">
+                            <div class="menu-container">
+                                <div class="menu">
+                                    <h5>新闻</h5>
+                                    <dl>
+                                        <dd>汽车</dd>
+                                        <dd>游戏</dd>
+                                    </dl>
+                                </div>
+                                <div class="menu">
+                                    <h5>新闻</h5>
+                                    <dl>
+                                        <dd>汽车</dd>
+                                        <dd>游戏</dd>
+                                    </dl>
+                                </div>
+                                <div class="menu">
+                                    <h5>新闻</h5>
+                                    <dl>
+                                        <dd>汽车</dd>
+                                        <dd>游戏</dd>
+                                    </dl>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-sm-8"></div>
                 </div>
 
             </div>
