@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -459,12 +459,12 @@
       <workItem from="1559534296584" duration="20776000" />
       <workItem from="1559610816883" duration="5241000" />
       <workItem from="1559699792512" duration="9446000" />
-      <workItem from="1559723487317" duration="2909000" />
+      <workItem from="1559723487317" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335460000" />
+    <option name="totallyTimeSpent" value="335551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -857,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
