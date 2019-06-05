@@ -46,20 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+            <state relative-caret-position="480">
+              <caret line="88" column="115" selection-start-line="88" selection-start-column="115" selection-end-line="88" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="280">
+              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_05_065850_create_wx_menus_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js" />
+        <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" />
       </list>
     </option>
   </component>
@@ -460,18 +460,18 @@
       <workItem from="1559534296584" duration="20776000" />
       <workItem from="1559610816883" duration="5241000" />
       <workItem from="1559699792512" duration="9446000" />
-      <workItem from="1559723487317" duration="16087000" />
+      <workItem from="1559723487317" duration="17251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348638000" />
+    <option name="totallyTimeSpent" value="349802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1829609" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1829609" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -848,17 +848,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.js">
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="480">
+          <caret line="88" column="115" selection-start-line="88" selection-start-column="115" selection-end-line="88" selection-end-column="115" />
         </state>
       </provider>
     </entry>
