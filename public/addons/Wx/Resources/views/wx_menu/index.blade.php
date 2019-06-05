@@ -14,7 +14,7 @@
                         <div class="mobile">
                             <div class="menu-container">
                                 <div class="menu" v-for="(v,i) in menus">
-                                    <h5>@{{name}}</h5>
+                                    <h5>@{{v.name}}</h5>
                                     <dl>
                                         <dd>汽车</dd>
                                         <dd>游戏</dd>
