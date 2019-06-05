@@ -17,10 +17,12 @@
   border: solid 1px #ddd;
   text-align: center;
   padding: 5px 10px;
+  margin: 0;
 }
 .menu-container .menu dl {
   display: flex;
   flex-direction: column-reverse;
+  margin-bottom: 0;
 }
 .menu-container .menu dl dd {
   border: solid 1px #dddddd;
