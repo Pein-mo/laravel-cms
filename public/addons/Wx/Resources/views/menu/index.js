@@ -7,8 +7,11 @@ define(['vue'],function (vue) {
             },
             methods:{
                 add(){
-                    let item = {type:'view',name:'后盾人',url:'houdunren.com'}
-                    this.menus.push(item)
+                    if(this.menus.length < 3){
+                        let item = {type:'view',name:'后盾人',url:'houdunren.com'}
+                        this.menus.push(item)
+                    }
+
                 }
             }
         })

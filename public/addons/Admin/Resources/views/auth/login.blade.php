@@ -34,7 +34,7 @@
                                     <input id="name" type="text" name="name" placeholder="请输入后台帐号" value="admin" autocomplete="off" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <input id="password" type="password" name="password" value="admin888" placeholder="登录密码" class="form-control">
+                                    <input id="password" type="password" name="password" value="q20031120" placeholder="登录密码" class="form-control">
                                 </div>
                                 <div class="form-group row login-tools">
                                     <div class="col-6 login-remember">
