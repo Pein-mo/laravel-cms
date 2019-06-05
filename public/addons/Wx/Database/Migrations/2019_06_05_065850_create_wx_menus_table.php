@@ -11,9 +11,9 @@ class CreateWxMenusTable extends Migration
     {
         Schema::create('wx_menus', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
-            $table->string('name');
-            $table->text('data')->comment('标题|input');
+
+            $table->string('data')->comment('标题|input');
+
         });
     }
 

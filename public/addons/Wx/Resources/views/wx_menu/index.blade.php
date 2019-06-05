@@ -13,7 +13,7 @@
                         <thead>
                         <tr>
                             <th style="width: 10%;">编号</th>
-                            <th>菜单名称</th>
+                            <th>标题</th>
                             <th>创建时间</th>
                             <th>修改时间</th>
                             <th>&nbsp;</th>
@@ -23,11 +23,10 @@
                         @foreach($data as $d)
                             <tr>
                                 <td>{!! $d['id'] !!}</td>
-                                <td>{!! $d['name'] !!}</td>
+                                <td>{!! $d['data'] !!}</td>
                                 <td>{!! $d['created_at'] !!}</td>
                                 <td>{!! $d['updated_at'] !!}</td>
                                 <td class="text-right">
-                                    <a href="/wx/wx_menu/push/{{$d['id']}}" class="btn btn-secondary">推送到微信端</a>
                                     <a href="/wx/wx_menu/{{$d['id']}}/edit" class="btn btn-secondary">编辑</a>
                                     <button type="button" class="btn btn-secondary btn-danger" onclick="del({{$d['id']}},this)">删除</button>
                                     <form action="/wx/wx_menu/{{$d['id']}}" hidden method="post">
