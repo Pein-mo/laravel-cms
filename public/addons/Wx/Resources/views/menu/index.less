@@ -2,4 +2,28 @@
     border: solid 1px #ddd;
     height: 400px;
     display: flex;
+    align-items: flex-end;
+}
+.menu-container{
+    display: flex;
+    flex: 1;
+    .menu{
+        display: flex;
+        flex: 1;
+        flex-direction: column-reverse;
+        h5{
+            border: solid 1px #ddd;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        dl{
+            display: flex;
+            flex-direction: column;
+            dd{
+                border: solid 1px #dddddd;
+                padding: 5px 10px;
+                text-align: center;
+            }
+        }
+    }
 }
