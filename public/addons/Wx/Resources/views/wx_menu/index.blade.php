@@ -113,9 +113,9 @@
 @endsection
 @section('scripts')
     <script>
-        require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"], function (index) {
+        require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"],function (index) {
             index();
-        });
+        })
     </script>
 
 @endsection

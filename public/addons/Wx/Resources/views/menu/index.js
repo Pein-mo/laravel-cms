@@ -1,4 +1,4 @@
-define(['vue',function () {
+define(['vue',function (vue) {
     return function () {
         alert(3);
     }
