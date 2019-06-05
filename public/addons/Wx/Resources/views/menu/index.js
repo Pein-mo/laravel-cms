@@ -1,10 +1,5 @@
 define(['vue'],function (vue) {
     return function () {
-        new vue({
-            el:'#app',
-            data:{
-                menus:333
-            }
-        });
+        alert(1);
     }
 })
