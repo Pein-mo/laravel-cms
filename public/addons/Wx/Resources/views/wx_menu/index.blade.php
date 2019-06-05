@@ -2,55 +2,28 @@
 @section('content')
     <div class="card" id="app">
         <div class="card-header">微信菜单管理</div>
-        <div class="tab-container">
-            <ul role="tablist" class="nav nav-tabs">
-                <li class="nav-item"><a href="/wx/wx_menu" class="nav-link active">微信菜单列表</a></li>
-                <li class="nav-item"><a href="/wx/wx_menu/create" class="nav-link">添加微信菜单</a></li>
-            </ul>
-            <div class="card card-contrast card-border-color-success">
-                <div class="card-body">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th style="width: 10%;">编号</th>
-                            <th>标题</th>
-                            <th>创建时间</th>
-                            <th>修改时间</th>
-                            <th>&nbsp;</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        @foreach($data as $d)
-                            <tr>
-                                <td>{!! $d['id'] !!}</td>
-                                <td>{!! $d['data'] !!}</td>
-                                <td>{!! $d['created_at'] !!}</td>
-                                <td>{!! $d['updated_at'] !!}</td>
-                                <td class="text-right">
-                                    <a href="/wx/wx_menu/{{$d['id']}}/edit" class="btn btn-secondary">编辑</a>
-                                    <button type="button" class="btn btn-secondary btn-danger" onclick="del({{$d['id']}},this)">删除</button>
-                                    <form action="/wx/wx_menu/{{$d['id']}}" hidden method="post">
-                                        @csrf @method('DELETE')
-                                    </form>
-                                </td>
-                            </tr>
-                        @endforeach
-                        </tbody>
-                    </table>
+
+        <form action="/wx/wx_menu" method="post">
+            <div class="card-body card-body-contrast">
+                @csrf
+                <div class="form-group row">
+                    <label for="data" class="col-12 col-sm-3 col-form-label text-md-right">标题</label>
+                    <div class="col-12 col-md-9">
+                        <input id="data" name="data" type="text"
+                               value="{{ $wx_menu['data']??old('data') }}"
+                               class="form-control form-control-sm form-control{{ $errors->has('data') ? ' is-invalid' : '' }}">
+                        @if ($errors->has('data'))
+                            <span class="invalid-feedback" role="alert">
+                <strong>{{ $errors->first('data') }}</strong>
+            </span>
+                        @endif
+                    </div>
                 </div>
+
             </div>
-        </div>
+            <div class="card-footer text-muted">
+                <button class="btn btn-primary offset-sm-2">保存提交</button>
+            </div>
+        </form>
     </div>
-    <div class="float-right">
-        {!!  $data->links() !!}
-    </div>
-@endsection
-@section('scripts')
-    <script>
-        function del(id, el) {
-            if (confirm('确定删除吗？')) {
-                $(el).next('form').trigger('submit')
-            }
-        }
-    </script>
 @endsection
