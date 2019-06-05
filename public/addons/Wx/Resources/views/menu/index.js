@@ -21,7 +21,11 @@ define(['vue'],function (vue) {
                         let menu = {type:'view',name:'后盾人',url:'houdunren.com'}
                         item.sub_button.push(menu)
                     }
+                },
+                delSubMenu(item,pos){
+                    item.sub_button.splice(pos,1)
                 }
+
             }
         })
     }
