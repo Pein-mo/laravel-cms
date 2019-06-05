@@ -112,7 +112,10 @@
     </div>
 @endsection
 @section('scripts')
-    require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"],function(index){
-        index();
-    });
+    <script>
+        require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"], function (index) {
+            index();
+        });
+    </script>
+
 @endsection
