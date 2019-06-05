@@ -38,7 +38,7 @@
 <div class="form-group row">
     <label for="pic" class="col-12 col-sm-3 col-form-label text-md-right">图片</label>
     <div class="col-12 col-lg-9">
-        <hd-image name="pic" id="pic" image-url="{!! $slide['pic']??old('pic') !!}"></hd-image>
+
         <img onclick="upImagePc()" src="http://www.houdunwang.com/theme/houdunwang//images/logo.png" class="img-fluid" alt="Responsive image">
         <input type="hidden" name="pic" value="">
         <script>

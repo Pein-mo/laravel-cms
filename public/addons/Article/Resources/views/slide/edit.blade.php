@@ -38,12 +38,20 @@
 <div class="form-group row">
     <label for="pic" class="col-12 col-sm-3 col-form-label text-md-right">图片</label>
     <div class="col-12 col-lg-9">
-        <hd-image name="pic" id="pic" image-url="{!! $slide['pic']??old('pic') !!}"></hd-image>
-        @if ($errors->has('pic'))
-            <span class="text-danger">
-                <strong>{{ $errors->first('pic') }}</strong>
-            </span>
-        @endif
+        <img onclick="upImagePc()" src="{{$content['thumb']}}" class="img-fluid" alt="Responsive image">
+        <input type="text" name="pic" hidden value="{{$slide['pic']}}">
+        <script>
+            require(['hdjs']);
+            //上传图片
+            function upImagePc() {
+                require(['hdjs'], function (hdjs) {
+                    hdjs.image(function (images) {
+                        $("[name='thumb']").val(images[0]);
+                        $(".img-fluid").attr('src', images[0]);
+                    })
+                });
+            }
+        </script>
     </div>
 </div>
 <div class="form-group row">
