@@ -43,13 +43,14 @@
         <input type="hidden" name="pic" value="">
         <script>
             require(['hdjs']);
+            //上传图片
             function upImagePc() {
-                require(['hjs'],function (hdjs) {
-                    hdjs.image(function (img) {
-                        $("[name='thumb']").val(img[0]);
-                        $(".img-fluid").attr('src', img[0]);
-                    });
-                })
+                require(['hdjs'], function (hdjs) {
+                    hdjs.image(function (images) {
+                        $("[name='pic']").val(images[0]);
+                        $(".img-fluid").attr('src', images[0]);
+                    })
+                });
             }
         </script>
     </div>
