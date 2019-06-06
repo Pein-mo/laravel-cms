@@ -65,7 +65,7 @@ class WxMenuController extends Controller
         $data = $chatService->instance('button')->create(['button'=>$menu['data']]);
 
         if($data['errcode']==0){
-            $menu->sta = true;
+            $menu->sta = 1;
             $menu->save();
 //            $menu->whereNotIn('id',$menu['id'])->save(['sta'=>0]);
             return back()->with('success','微信菜单推送成功，请稍后在微信查看');
