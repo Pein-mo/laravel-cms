@@ -67,7 +67,7 @@ class WxMenuController extends Controller
         if($data['errcode']==0){
             $menu->sta = 1;
             $menu->save();
-            \DB::table('wx_menus')->whereNotIn('id',$menu['id'])->save(['sta'=>0]);
+            \DB::table('wx_menus')->where('id','!=',$menu['id'])->save(['sta'=>0]);
             return back()->with('success','微信菜单推送成功，请稍后在微信查看');
         }else{
             return back()->with('danger',$data['errmsg']);
