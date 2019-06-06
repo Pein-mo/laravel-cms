@@ -23,9 +23,9 @@ class WxMenuController extends Controller
     //保存数据
     public function store(WxMenuRequest $request,WxMenu $wx_menu)
     {
-        $wx_menu->fill($request->all());
+        $wx_menu->name = $request->input('name');
+        $wx_menu->data = $request->input('data');
         $wx_menu->save();
-
         return redirect('/wx/wx_menu')->with('success', '保存成功');
     }
 
