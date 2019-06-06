@@ -63,6 +63,7 @@ class WxMenuController extends Controller
     public function push(WxMenu $menu,WeChatService $chatService){
 
         $data = $chatService->instance('button')->create(['button'=>$menu['data']]);
+        dd($data);
         if($data['errcode'==0]){
             WxMenu::where('id',$menu['id'])->save(['sta'=>1]);
             WxMenu::whereNotIn('id',$menu['id'])->save(['sta'=>0]);
