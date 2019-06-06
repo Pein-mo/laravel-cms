@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -169,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/Admin/Database/Seeders/AdminDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Modules/Admin/Database/Seeders/ModulesSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/MailCheckMiddleware.php" />
@@ -220,6 +228,7 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Requests/WxMenuRequest.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php" />
+        <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php" />
       </list>
     </option>
   </component>
@@ -510,12 +519,12 @@
       <workItem from="1559610816883" duration="5241000" />
       <workItem from="1559699792512" duration="9446000" />
       <workItem from="1559723487317" duration="17987000" />
-      <workItem from="1559785442131" duration="5358000" />
+      <workItem from="1559785442131" duration="5991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355896000" />
+    <option name="totallyTimeSpent" value="356529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -771,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -905,8 +907,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
