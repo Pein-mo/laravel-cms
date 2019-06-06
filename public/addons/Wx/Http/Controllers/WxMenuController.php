@@ -63,6 +63,6 @@ class WxMenuController extends Controller
     public function push(WxMenu $menu,WeChatService $chatService){
         dd($menu['data']);
         $data = $chatService->instance('button')->create($menu['data']);
-        dd($data);
+        
     }
 }
