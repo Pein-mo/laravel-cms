@@ -46,7 +46,9 @@ class WxMenuController extends Controller
     //更新数据
     public function update(WxMenuRequest $request, WxMenu $wx_menu)
     {
-        $wx_menu->update($request->all());
+        $wx_menu->name = $request->input('name');
+        $wx_menu->data = json_decode($request->input('data'));
+        $wx_menu->save();
         return redirect('/wx/wx_menu')->with('success','更新成功');
     }
 
