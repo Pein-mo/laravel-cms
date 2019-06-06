@@ -14,6 +14,7 @@
                         <tr>
                             <th style="width: 10%;">编号</th>
                             <th>菜单名称</th>
+                            <th>是否启用</th>
                             <th>创建时间</th>
                             <th>修改时间</th>
                             <th>&nbsp;</th>
@@ -24,6 +25,7 @@
                             <tr>
                                 <td>{!! $d['id'] !!}</td>
                                 <td>{!! $d['name'] !!}</td>
+                                <td>{!! $d['sta']?'是':'否' !!}</td>
                                 <td>{!! $d['created_at'] !!}</td>
                                 <td>{!! $d['updated_at'] !!}</td>
                                 <td class="text-right">
