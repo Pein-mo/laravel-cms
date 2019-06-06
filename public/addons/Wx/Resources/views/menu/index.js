@@ -12,7 +12,7 @@ define(['vue'],function (vue) {
                 },
                 add(){
                     if(this.menus.length < 3){
-                        let item = {type:'view',name:'后盾人',url:'houdunren.com',sub_button:[]}
+                        let item = {type:'view',name:'后盾人',url:'http://',sub_button:[]}
                         this.menus.push(item)
                         this.setActiveMenu(item)
                     }
@@ -23,7 +23,7 @@ define(['vue'],function (vue) {
                 },
                 addSubMenu(item){
                     if(item.sub_button.length < 5){
-                        let menu = {type:'view',name:'后盾人',url:'houdunren.com'}
+                        let menu = {type:'view',name:'后盾人',url:'http://'}
                         item.sub_button.push(menu)
                         this.setActiveMenu(menu)
                     }

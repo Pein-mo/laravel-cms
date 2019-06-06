@@ -13,6 +13,7 @@ class CreateWxMenusTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
+            $table->tinyInteger('sta')->default(0);
             $table->text('data')->comment('标题|input');
 
         });
