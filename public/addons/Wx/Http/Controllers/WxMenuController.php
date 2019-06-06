@@ -59,7 +59,7 @@ class WxMenuController extends Controller
         return redirect('wx/wx_menu')->with('success','删除成功');
     }
 
-    public function push($menu){
+    public function push(WxMenu $menu){
         dd($menu->toArray());
     }
 }
