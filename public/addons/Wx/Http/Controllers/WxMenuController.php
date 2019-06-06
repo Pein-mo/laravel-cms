@@ -2,6 +2,7 @@
 namespace Modules\Wx\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Services\WeChatService;
 use Illuminate\Http\Request;
 use Modules\Wx\Entities\WxMenu;
 use Modules\Wx\Http\Requests\WxMenuRequest;
@@ -59,7 +60,8 @@ class WxMenuController extends Controller
         return redirect('wx/wx_menu')->with('success','删除成功');
     }
 
-    public function push(WxMenu $menu){
-        dd($menu->toArray());
+    public function push(WxMenu $menu,WeChatService $chatService){
+        $data = $chatService->instance('button')->create($menu['data']);
+        dd($data);
     }
 }
