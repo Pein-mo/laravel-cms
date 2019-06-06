@@ -14,8 +14,8 @@
                         <div class="mobile">
                             <div class="menu-container">
                                 <div class="menu" v-for="(v,i) in menus">
-                                    <h5 @click="delMenu(i)">
-                                        <i class="fa fa-minus-square" aria-hidden="true"></i>
+                                    <h5 >
+                                        <i @click="delMenu(i)" class="fa fa-minus-square" aria-hidden="true"></i>
                                         @{{v.name}}
                                     </h5>
                                     <dl>
