@@ -61,7 +61,7 @@ class WxMenuController extends Controller
     }
 
     public function push(WxMenu $menu,WeChatService $chatService){
-        dd($menu->toArray());
+        dd($menu['id']);
         $data = $chatService->instance('button')->create(['button'=>$menu['data']]);
         if($data['errcode'==0]){
             return back()->with('success','微信菜单推送成功，请稍后在微信查看');
