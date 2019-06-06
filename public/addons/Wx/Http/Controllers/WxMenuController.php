@@ -23,7 +23,7 @@ class WxMenuController extends Controller
     //保存数据
     public function store(WxMenuRequest $request,WxMenu $wx_menu)
     {
-        dd($request->input('name'));
+//        dd($request->input('name'));
         $wx_menu->name = $request->input('name');
         $wx_menu->data = $request->input('data');
         $wx_menu->save();
