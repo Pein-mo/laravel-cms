@@ -39,6 +39,7 @@ class WxMenuController extends Controller
     //编辑视图
     public function edit(WxMenu $wx_menu)
     {
+        dd($wx_menu);
         return view('wx::wx_menu.edit', compact('wx_menu'));
     }
 
