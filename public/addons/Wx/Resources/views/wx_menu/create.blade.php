@@ -13,11 +13,12 @@
                         <div class="mobile">
                             <div class="menu-container">
                                 <div class="menu" v-for="(v,i) in menus">
-                                    <h5><i @click="delMenu(i)" class="fa fa-minus-square" aria-hidden="true"></i> @{{ v.name }}</h5>
+                                    <h5><i @click="delMenu(i)" class="fa fa-minus-square" aria-hidden="true"></i> <span @click="setActiveMenu(v)">@{{ v.name }}</span></h5>
                                     <dl>
                                         <dd v-if="v.sub_button.length<5"><i @click="addSubMenu(v)" class="fa fa-plus-square" aria-hidden="true"></i> 添加菜单</dd>
                                         <dd v-for="(m,n) in v.sub_button">
-                                            <i @click="delSubMenu(v,n)" class="fa fa-minus-square" aria-hidden="true"></i>  @{{ m.name }}
+                                            <i @click="delSubMenu(v,n)" class="fa fa-minus-square" aria-hidden="true"></i>
+                                            <span @click="setActiveMenu(m)">@{{ m.name }}</span>
                                         </dd>
                                     </dl>
                                 </div>

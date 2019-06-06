@@ -25,7 +25,7 @@ class WxMenuController extends Controller
     {
 //        dd($request->input('name'));
         $wx_menu->name = $request->input('name');
-        $wx_menu->data = $request->input('data');
+        $wx_menu->data = json_decode($request->input('data'));
         $wx_menu->save();
         return redirect('/wx/wx_menu')->with('success', '保存成功');
     }
@@ -39,7 +39,7 @@ class WxMenuController extends Controller
     //编辑视图
     public function edit(WxMenu $wx_menu)
     {
-        dd($wx_menu->toArray());
+//        dd($wx_menu->toArray());
         return view('wx::wx_menu.edit', compact('wx_menu'));
     }
 
