@@ -11,18 +11,12 @@
             <div class="card-body card-body-contrast">
                 @csrf
                 <div class="form-group row">
-    <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
-    <div class="col-12 col-md-9">
-        <textarea id="content" name="content" rows="3"
-                  class="form-control form-control{{ $errors->has('content') ? ' is-invalid' : '' }}">
-            {{ $wx_reply_base['content']??old('content') }}</textarea>
-        @if ($errors->has('content'))
-            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('content') }}</strong>
-            </span>
-        @endif
-    </div>
-</div>
+                    <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
+                    <div class="col-12 col-md-9">
+                        <textarea id="content" name="content" rows="3" class="form-control form-control"></textarea>
+                        <button class="btn btn-secondary" type="button">删除</button>
+                    </div>
+                </div>
 
             </div>
             <div class="card-footer text-muted">

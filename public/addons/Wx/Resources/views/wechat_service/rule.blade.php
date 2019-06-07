@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <textarea name="_rule" hidden></textarea>
+    <textarea name="_rule" hidden>@{{role}}</textarea>
 </div>
 <script>
     require(['vue'],function (vue) {
@@ -36,9 +36,7 @@
             el:"#rule",
             data:{
                 rule:{
-                    id:0,
-                    name:'',
-                    keywords:[]
+                    rule: {!! $_rule !!}
                 },
 
             },

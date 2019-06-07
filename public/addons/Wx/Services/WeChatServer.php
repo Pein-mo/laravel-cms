@@ -12,19 +12,19 @@ use Modules\Wx\Entities\WxRule;
 
 class WeChatServer
 {
-    public function ruleView(){
-        return view('wx::wechat_service.rule');
-    }
-//    public function ruleView($id = 0)
-//    {
-//        $rule = WxRule::findOrNew($id);
-//        $_rule = old('_rule', json_encode([
-//            'id' => $rule['id'] ?: 0,
-//            'name' => $rule['name'] ?: '',
-//            'keywords' => $rule->keyword()->get()->toArray() ?? [['key' => '']],
-//        ]));
-//        return view('wx::wechat_server.rule', compact('_rule'));
+//    public function ruleView(){
+//        return view('wx::wechat_service.rule');
 //    }
+    public function ruleView($id = 0)
+    {
+        $rule = WxRule::findOrNew($id);
+        $_rule = old('_rule', json_encode([
+            'id' => $rule['id'] ?: 0,
+            'name' => $rule['name'] ?: '',
+            'keywords' => $rule->keyword()->get()->toArray() ?? [['key' => '']],
+        ]));
+        return view('wx::wechat_server.rule', compact('_rule'));
+    }
 
     public function ruleSave()
     {
