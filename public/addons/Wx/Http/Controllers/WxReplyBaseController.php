@@ -20,7 +20,7 @@ class WxReplyBaseController extends Controller
     public function create(WxReplyBase $wx_reply_base,WeChatServer $weChatServer)
     {
         $ruleView = $weChatServer->ruleView();
-        dd($ruleView);
+//        dd($ruleView);
         return view('wx::wx_reply_base.create',compact('wx_reply_base','ruleView'));
     }
 
