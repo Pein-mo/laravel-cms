@@ -35,9 +35,7 @@
         new vue({
             el:"#rule",
             data:{
-                rule:{
-                    rule:{!! $_rule !!},
-                },
+                rule: {!! $_rule !!}
 
             },
             methods:{
