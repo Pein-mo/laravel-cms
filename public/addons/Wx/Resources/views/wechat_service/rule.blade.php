@@ -3,21 +3,21 @@
         添加回复规则
     </div>
     <div class="card-block">
-        <div class="form-group row" v-for="(v,i) in rule.keywords">
+        <div class="form-group row" >
             <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">回复规则名称</label>
             <div class="col-12 col-sm-8 col-lg-6">
-                <input type="text" class="form-control form-control-sm" v-model="v.key">
+                <input type="text" class="form-control form-control-sm" >
             </div>
         </div>
-        <div class="form-group row">
+        <div class="form-group row" v-for="(v,i) in rule.keywords">
             <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">关键词</label>
             <div class="col-12 col-sm-8 col-lg-6">
                 <div class="card">
                     <div class="card-body card-body-contrast">
                         <div class="input-group mb-3" >
-                            <input type="text" class="form-control form-control-sm" >
+                            <input type="text" class="form-control form-control-sm" v-model="v.key">
                             <div class="input-group-append">
-                                <button class="btn btn-secondary" type="button">删除</button>
+                                <button class="btn btn-secondary" @click="del(i)" type="button">删除</button>
                             </div>
                         </div>
                     </div>
