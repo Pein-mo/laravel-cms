@@ -1,6 +1,6 @@
 @extends('admin::layouts.master')
 @section('content')
-    {!! $ruleView !!}
+    {!! $_rule !!}
     <div class="card" id="app">
         <div class="card-header">基本回复管理</div>
         <ul role="tablist" class="nav nav-tabs">
