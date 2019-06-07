@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wechat_service/rule.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Resources/views/wechat_service/rule.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,16 +63,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="400">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wechat_service/rule.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -207,9 +207,9 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxMenuController.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxReplyBaseController.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxRule.php" />
-        <option value="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wechat_service/rule.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" />
       </list>
     </option>
   </component>
@@ -505,12 +505,12 @@
       <workItem from="1559699792512" duration="9446000" />
       <workItem from="1559723487317" duration="17987000" />
       <workItem from="1559785442131" duration="21235000" />
-      <workItem from="1559866320198" duration="17913000" />
+      <workItem from="1559866320198" duration="18026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389686000" />
+    <option name="totallyTimeSpent" value="389799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -900,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -918,6 +911,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>

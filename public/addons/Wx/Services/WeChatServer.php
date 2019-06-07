@@ -23,7 +23,7 @@ class WeChatServer
             'name' => $rule['name'] ?: '',
             'keywords' => $rule->keyword()->get()->toArray() ?? [['key' => '']],
         ]));
-        return view('wx::wechat_server.rule', compact('_rule'));
+        return view('wx::wechat_service.rule', compact('_rule'));
     }
 
     public function ruleSave()
