@@ -6,6 +6,8 @@ use App\Services\WeChatService;
 use Illuminate\Http\Request;
 use Modules\Wx\Entities\WxMenu;
 use Modules\Wx\Http\Requests\WxMenuRequest;
+use Modules\Wx\Services\WeChatServer;
+
 class WxMenuController extends Controller
 {
     //显示列表

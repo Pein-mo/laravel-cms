@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Modules\Wx\Entities\WxReplyBase;
 use Modules\Wx\Http\Requests\WxReplyBaseRequest;
+use Modules\Wx\Services\WeChatServer;
+
 class WxReplyBaseController extends Controller
 {
     //显示列表
@@ -15,9 +17,10 @@ class WxReplyBaseController extends Controller
     }
 
     //创建视图
-    public function create(WxReplyBase $wx_reply_base)
+    public function create(WxReplyBase $wx_reply_base,WeChatServer $weChatServer)
     {
-        return view('wx::wx_reply_base.create',compact('wx_reply_base'));
+        $ruleView = $weChatServer->ruleView();
+        return view('wx::wx_reply_base.create',compact('wx_reply_base','ruleView'));
     }
 
     //保存数据
