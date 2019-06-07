@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <textarea name="_rule" hidden>@{{role}}</textarea>
+    <textarea name="_rule" hidden>@{{rule}}</textarea>
 </div>
 <script>
     require(['vue'],function (vue) {
