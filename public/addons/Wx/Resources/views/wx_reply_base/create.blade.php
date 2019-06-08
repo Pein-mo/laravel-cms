@@ -53,7 +53,7 @@
                                 //选择图标后执行的回调函数
                                 callback: function (con, btn, input) {
                                     let index = $(input).index('#app textarea');
-                                    console.log(This.contents[index]);
+                                    console.log(This.contents);
                                     // This.contents[index].content = $(input).val();
                                 }
                             });
