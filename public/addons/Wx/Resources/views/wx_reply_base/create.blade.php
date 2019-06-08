@@ -12,16 +12,34 @@
                 @csrf
                 <div class="form-group row">
                     <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
-                    <div class="col-12 col-md-9">
-                        <textarea id="content" name="content" rows="3" class="form-control form-control"></textarea>
-                        <button class="btn btn-secondary" type="button">删除</button>
+                    <div class="col-md-10" v-for="(v,i) in contents">
+                        <textarea id="content" name="content" rows="3" class="form-control form-control" v-model="v.content"></textarea>
+                        <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                     </div>
                 </div>
 
             </div>
             <div class="card-footer text-muted">
-                <button class="btn btn-primary offset-sm-2">保存提交</button>
+                <button class="btn btn-primary offset-sm-2" @click="add()">添加回复条目</button>
             </div>
         </form>
     </div>
 @endsection
+<script>
+    require(['vue','hdjs'],function (vue,hdjs) {
+        new vue({
+            el:"#app",
+            data:{
+                contents:[{content:''}]
+            },
+            methods:{
+                add(){
+                    this.contents.push({content:''});
+                },
+                del(pos){
+                    this.contents.splice(pos,1)
+                }
+            }
+        })
+    });
+</script>
