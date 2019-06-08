@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Modules\Base\Entities\Base;
 use Modules\Base\Http\Requests\BaseRequest;
+use Modules\Wx\Services\WeChatServer;
+
 class BaseController extends Controller
 {
     //显示列表
@@ -15,9 +17,10 @@ class BaseController extends Controller
     }
 
     //创建视图
-    public function create(Base $base)
+    public function create(Base $base,WeChatServer $weChatServer)
     {
-        return view('base::base.create',compact('base'));
+        $ruleView = $weChatServer->ruleView();
+        return view('base::base.create',compact('base','ruleView'));
     }
 
     //保存数据
