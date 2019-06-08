@@ -13,7 +13,8 @@
                 <div class="form-group row">
                     <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
                     <div class="col-md-10" v-for="(v,i) in contents">
-                        <textarea id="content" name="content" rows="3" class="form-control form-control" v-model="v.content"></textarea>
+                        <textarea id="content" name="content" rows="3" class="form-control form-control"
+                                  v-model="v.content"></textarea>
                         <a href="javascript:;"><i class="fa fa-github-alt" aria-hidden="true"></i>图标</a>
                         <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                     </div>
@@ -26,22 +27,40 @@
         </form>
     </div>
     <script>
-        require(['vue','hdjs'],function (vue,hdjs) {
+        require(['vue', 'hdjs'], function (vue, hdjs) {
             new vue({
-                el:"#app",
-                data:{
-                    contents:[{content:''}]
+                el: "#app",
+                data: {
+                    contents: [{content: ''}]
                 },
                 //挂载
-                mounted(){
-                    alert(3);
+                mounted() {
+                    this.emotion();
                 },
-                methods:{
-                    add(){
-                        this.contents.push({content:''});
+                //添加元素的时候
+                updated(){
+                    this.emotion();
+                },
+                methods: {
+                    emotion() {
+                        $('textarea').each(function () {
+                            hdjs.emotion({
+                                //点击的元素，可以为任何元素触发
+                                btn: $(this).next('a'),
+                                //选中图标后填入的文本框
+                                input: $(this),
+                                //选择图标后执行的回调函数
+                                callback: function (con, btn, input) {
+                                    console.log('选择表情后的执行的回调函数');
+                                }
+                            });
+                        })
                     },
-                    del(pos){
-                        this.contents.splice(pos,1)
+                    add() {
+                        this.contents.push({content: ''});
+                    },
+                    del(pos) {
+                        this.contents.splice(pos, 1)
                     }
                 }
             })
