@@ -43,8 +43,9 @@
                 },
                 methods: {
                     emotion() {
+                        var This = this;
                         $('textarea').each(function () {
-                            var This = this;
+
                             hdjs.emotion({
                                 //点击的元素，可以为任何元素触发
                                 btn: $(this).next('a'),
@@ -54,7 +55,7 @@
                                 callback: function (con, btn, input) {
                                     let index = $(input).index('#app textarea');
                                     // console.log(This.contents);
-                                    // This.contents[index].content = $(input).val();
+                                    This.contents[index].content = $(input).val();
                                 }
                             });
                         })
