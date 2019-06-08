@@ -1,5 +1,5 @@
 <?php return [
-    'Base' =>
+    'base' =>
         [
             'title' => '基本回复管理',
             'icon' => 'fa fa-navicon',
