@@ -12,7 +12,7 @@ class WxReplyBaseController extends Controller
     //显示列表
     public function index()
     {
-        dd(\HDModule::getModulesLists());
+//        dd(\HDModule::getModulesLists());
         $data = WxReplyBase::paginate(10);
         return view('wx::wx_reply_base.index', compact('data'));
     }

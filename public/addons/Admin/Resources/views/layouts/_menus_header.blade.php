@@ -16,7 +16,7 @@
         扩展插件 <span class="mdi mdi-caret-down"></span>
     </a>
     <div role="menu" class="dropdown-menu">
-        @foreach(\HDModule::getModulesLists(['Admin','Wx','Base','News']) as $module)
+        @foreach(\HDModule::getModulesLists(['Admin','Wx','News']) as $module)
             <a href="/{{strtolower($module['name'])}}" class="dropdown-item">{{$module['title']}}</a>
         @endforeach
     </div>
