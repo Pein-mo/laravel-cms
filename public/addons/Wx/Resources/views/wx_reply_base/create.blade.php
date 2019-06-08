@@ -20,7 +20,7 @@
 
             </div>
             <div class="card-footer text-muted">
-                <button class="btn btn-primary offset-sm-2" @click="add()">添加回复条目</button>
+                <button class="btn btn-primary offset-sm-2" @click="add()" type="button">添加回复条目</button>
             </div>
         </form>
     </div>
