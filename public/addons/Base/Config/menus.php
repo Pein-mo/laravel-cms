@@ -1,1 +1,1 @@
-<?php include base_path('public/addons/Wx/Config').'/menus.php';
+<?php return include base_path('public/addons/Wx/Config').'/menus.php';
