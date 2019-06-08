@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'Base'
+    'name' => '基本回复'
 ];

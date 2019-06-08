@@ -1,4 +1,5 @@
 <?php
+
 namespace Modules\Base\Http\Controllers;
 
 use App\Http\Controllers\Controller;
@@ -13,21 +14,22 @@ class BaseController extends Controller
     public function index()
     {
         $data = Base::paginate(10);
+
         return view('base::base.index', compact('data'));
     }
 
     //创建视图
-    public function create(Base $base,WeChatServer $weChatServer)
+    public function create(Base $base, WeChatServer $weChatServer)
     {
         $ruleView = $weChatServer->ruleView();
-        return view('base::base.create',compact('base','ruleView'));
+
+        return view('base::base.create', compact('base', 'ruleView'));
     }
 
     //保存数据
-    public function store(BaseRequest $request,Base $base)
+    public function store(BaseRequest $request, Base $base, WeChatServer $weChatServer)
     {
-        $base->fill($request->all());
-        $base->save();
+        $data = $weChatServer->ruleSave();
 
         return redirect('/base/base')->with('success', '保存成功');
     }
@@ -48,13 +50,15 @@ class BaseController extends Controller
     public function update(BaseRequest $request, Base $base)
     {
         $base->update($request->all());
-        return redirect('/base/base')->with('success','更新成功');
+
+        return redirect('/base/base')->with('success', '更新成功');
     }
 
     //删除模型
     public function destroy(Base $base)
     {
         $base->delete();
-        return redirect('base/base')->with('success','删除成功');
+
+        return redirect('base/base')->with('success', '删除成功');
     }
 }

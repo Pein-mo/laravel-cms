@@ -1,15 +1,17 @@
 @extends('admin::layouts.master')
 @section('content')
-    {!! $ruleView !!}
-    <div class="card" id="app">
-        <div class="card-header">基本回复管理</div>
-        <ul role="tablist" class="nav nav-tabs">
-            <li class="nav-item"><a href="/wx/wx_reply_base" class="nav-link">基本回复列表</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">添加基本回复</a></li>
-        </ul>
-        <form action="/wx/wx_reply_base" method="post">
+    <form action="/base/base" method="post">
+        @csrf
+        {!! $ruleView !!}
+        <div class="card" id="app">
+            <div class="card-header">基本回复管理</div>
+            <ul role="tablist" class="nav nav-tabs">
+                <li class="nav-item"><a href="/wx/wx_reply_base" class="nav-link">基本回复列表</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">添加基本回复</a></li>
+            </ul>
+
             <div class="card-body card-body-contrast">
-                @csrf
+
                 <div class="form-group row">
                     <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
                     <div class="col-md-10" v-for="(v,i) in contents">
@@ -24,8 +26,10 @@
             <div class="card-footer text-muted">
                 <button class="btn btn-primary offset-sm-2" @click="add()" type="button">添加回复条目</button>
             </div>
-        </form>
-    </div>
+        </div>
+        <button class="btn btn-primary">提交保存</button>
+    </form>
+
     <script>
         require(['vue', 'hdjs'], function (vue, hdjs) {
             new vue({
@@ -38,7 +42,7 @@
                     this.emotion();
                 },
                 //添加元素的时候
-                updated(){
+                updated() {
                     this.emotion();
                 },
                 methods: {

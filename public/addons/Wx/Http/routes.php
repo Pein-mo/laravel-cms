@@ -18,8 +18,4 @@ function () {
     Route::get('wx_menu/push/{menu}','WxMenuController@push');
 });
 
-//wx_reply_base-route
-Route::group(['middleware' => ['web','auth:admin'],'prefix'=>'wx','namespace'=>"Modules\Wx\Http\\Controllers"],
-function () {
-    Route::resource('wx_reply_base', 'WxReplyBaseController');
-});
+
