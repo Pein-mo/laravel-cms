@@ -43,19 +43,6 @@
     //     })
     // });
     require(['vue'],function (vue) {
-        new vue({
-                    el:"#app",
-                    data:{
-                        contents:[{content:''}]
-                    },
-                    methods:{
-                        add(){
-                            this.contents.push({content:''});
-                        },
-                        del(pos){
-                            this.contents.splice(pos,1)
-                        }
-                    }
-                })
+        alert(1);
     })
 </script>
