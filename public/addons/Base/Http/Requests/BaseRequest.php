@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\base\Http\Requests;
+namespace Modules\Base\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class baseRequest extends FormRequest
+class BaseRequest extends FormRequest
 {
     //验证规则
     public function rules()

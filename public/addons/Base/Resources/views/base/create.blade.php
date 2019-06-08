@@ -9,33 +9,7 @@
         <form action="/base/base" method="post">
             <div class="card-body card-body-contrast">
                 @csrf
-                <div class="form-group row">
-    <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
-    <div class="col-12 col-md-9">
-        <textarea id="content" name="content" rows="3"
-                  class="form-control form-control{{ $errors->has('content') ? ' is-invalid' : '' }}">
-            {{ $base['content']??old('content') }}</textarea>
-        @if ($errors->has('content'))
-            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('content') }}</strong>
-            </span>
-        @endif
-    </div>
-</div>
-<div class="form-group row">
-    <label for="rule_id" class="col-12 col-sm-3 col-form-label text-md-right">规则编号</label>
-    <div class="col-12 col-md-9">
-        <textarea id="rule_id" name="rule_id" rows="3"
-                  class="form-control form-control{{ $errors->has('rule_id') ? ' is-invalid' : '' }}">
-            {{ $base['rule_id']??old('rule_id') }}</textarea>
-        @if ($errors->has('rule_id'))
-            <span class="invalid-feedback" role="alert">
-                <strong>{{ $errors->first('rule_id') }}</strong>
-            </span>
-        @endif
-    </div>
-</div>
-
+                
             </div>
             <div class="card-footer text-muted">
                 <button class="btn btn-primary offset-sm-2">保存提交</button>
