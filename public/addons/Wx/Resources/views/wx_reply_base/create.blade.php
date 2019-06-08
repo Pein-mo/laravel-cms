@@ -26,20 +26,26 @@
     </div>
 @endsection
 <script>
-    require(['vue','hdjs'],function (vue,hdjs) {
+    // require(['vue','hdjs'],function (vue,hdjs) {
+    //     new vue({
+    //         el:"#app",
+    //         data:{
+    //             contents:[{content:''}]
+    //         },
+    //         methods:{
+    //             add(){
+    //                 this.contents.push({content:''});
+    //             },
+    //             del(pos){
+    //                 this.contents.splice(pos,1)
+    //             }
+    //         }
+    //     })
+    // });
+    require(['vue'],function (vue) {
         new vue({
             el:"#app",
-            data:{
-                contents:[{content:''}]
-            },
-            methods:{
-                add(){
-                    this.contents.push({content:''});
-                },
-                del(pos){
-                    this.contents.splice(pos,1)
-                }
-            }
+            data:{}
         })
-    });
+    })
 </script>
