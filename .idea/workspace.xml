@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+              <caret line="55" column="82" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -503,12 +503,12 @@
       <workItem from="1559723487317" duration="17987000" />
       <workItem from="1559785442131" duration="21235000" />
       <workItem from="1559866320198" duration="21287000" />
-      <workItem from="1559961917878" duration="4906000" />
+      <workItem from="1559961917878" duration="5032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397966000" />
+    <option name="totallyTimeSpent" value="398092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -915,7 +915,7 @@
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <caret line="55" column="82" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
         </state>
       </provider>
     </entry>
