@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75e3a452-b3c3-46ef-b040-9133a38f0c33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75e3a452-b3c3-46ef-b040-9133a38f0c33.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Config/menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Config/menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_090052_create_bases_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Http/Requests/baseRequest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/addons/Base/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +45,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="360">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -92,8 +100,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="laravel-cms module:migrate-refresh Admin" />
-      <command text="laravel-cms module:migrate-refresh Admin --seed" />
       <command text="laravel-cms module:migrate-refresh Article --seed" />
       <command text="laravel-cms module:migrate-refresh Wx --seed" />
       <command text="laravel-cms hd:model WxMenu Wx" />
@@ -117,6 +123,8 @@
       <command text="laravel-cms hd:autocreate Base Base 基本回复" />
       <command text="laravel-cms hd:module Base" />
       <command text="laravel-cms hd:model Base Base" />
+      <command text="laravel-cms hd:autocreate Base Base 基本回复" />
+      <command text="laravel-cms migrate" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -176,9 +184,9 @@
         <option value="$PROJECT_DIR$/public/addons/Base/Config/config.php" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxReplyBaseController.php" />
-        <option value="$PROJECT_DIR$/public/addons/Base/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Config/menus.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php" />
+        <option value="$PROJECT_DIR$/public/addons/Base/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -329,16 +337,7 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -449,12 +448,12 @@
       <workItem from="1559723487317" duration="17987000" />
       <workItem from="1559785442131" duration="21235000" />
       <workItem from="1559866320198" duration="21287000" />
-      <workItem from="1559961917878" duration="11447000" />
+      <workItem from="1559961917878" duration="11546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404507000" />
+    <option name="totallyTimeSpent" value="404606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -820,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Base/Entities/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -838,13 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -864,8 +849,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="360">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
