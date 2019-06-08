@@ -1,72 +1,57 @@
 <?php
-
 namespace Modules\Base\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use Illuminate\Routing\Controller;
-
+use Modules\Base\Entities\Base;
+use Modules\Base\Http\Requests\BaseRequest;
 class BaseController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     * @return Response
-     */
+    //显示列表
     public function index()
     {
-        return view('base::index');
+        $data = Base::paginate(10);
+        return view('base::base.index', compact('data'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     * @return Response
-     */
-    public function create()
+    //创建视图
+    public function create(Base $base)
     {
-        return view('base::create');
+        return view('base::base.create',compact('base'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     * @param  Request $request
-     * @return Response
-     */
-    public function store(Request $request)
+    //保存数据
+    public function store(BaseRequest $request,Base $base)
     {
+        $base->fill($request->all());
+        $base->save();
+
+        return redirect('/base/base')->with('success', '保存成功');
     }
 
-    /**
-     * Show the specified resource.
-     * @return Response
-     */
-    public function show()
+    //显示记录
+    public function show(Base $field)
     {
-        return view('base::show');
+        return view('base::base.show', compact('field'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     * @return Response
-     */
-    public function edit()
+    //编辑视图
+    public function edit(Base $base)
     {
-        return view('base::edit');
+        return view('base::base.edit', compact('base'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     * @param  Request $request
-     * @return Response
-     */
-    public function update(Request $request)
+    //更新数据
+    public function update(BaseRequest $request, Base $base)
     {
+        $base->update($request->all());
+        return redirect('/base/base')->with('success','更新成功');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     * @return Response
-     */
-    public function destroy()
+    //删除模型
+    public function destroy(Base $base)
     {
+        $base->delete();
+        return redirect('base/base')->with('success','删除成功');
     }
 }
