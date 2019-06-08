@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Base/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Http/routes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxReplyBaseController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -191,12 +199,12 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_090052_create_bases_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/baseController.php" />
-        <option value="$PROJECT_DIR$/public/addons/Base/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Config/menus.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Config/config.php" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxReplyBaseController.php" />
+        <option value="$PROJECT_DIR$/public/addons/Base/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -339,15 +347,15 @@
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="Wx" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="Wx" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -458,12 +466,12 @@
       <workItem from="1559723487317" duration="17987000" />
       <workItem from="1559785442131" duration="21235000" />
       <workItem from="1559866320198" duration="21287000" />
-      <workItem from="1559961917878" duration="10372000" />
+      <workItem from="1559961917878" duration="10597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403432000" />
+    <option name="totallyTimeSpent" value="403657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -836,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Base/Config/menus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -875,6 +876,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
