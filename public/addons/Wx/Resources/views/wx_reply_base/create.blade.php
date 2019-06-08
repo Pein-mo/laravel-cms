@@ -44,6 +44,7 @@
                 methods: {
                     emotion() {
                         $('textarea').each(function () {
+                            var This = this;
                             hdjs.emotion({
                                 //点击的元素，可以为任何元素触发
                                 btn: $(this).next('a'),
@@ -51,7 +52,8 @@
                                 input: $(this),
                                 //选择图标后执行的回调函数
                                 callback: function (con, btn, input) {
-                                    console.log('选择表情后的执行的回调函数');
+                                    let index = $(input).index('#app textarea');
+                                    This.contents[index].content = $(input).val();
                                 }
                             });
                         })
