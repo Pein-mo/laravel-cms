@@ -14,6 +14,7 @@
                     <label for="content" class="col-12 col-sm-3 col-form-label text-md-right">回复内容</label>
                     <div class="col-md-10" v-for="(v,i) in contents">
                         <textarea id="content" name="content" rows="3" class="form-control form-control" v-model="v.content"></textarea>
+                        <a href="javascript:;"><i class="fa fa-github-alt" aria-hidden="true"></i>图标</a>
                         <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                     </div>
                 </div>
@@ -30,6 +31,10 @@
                 el:"#app",
                 data:{
                     contents:[{content:''}]
+                },
+                //挂载
+                mounted(){
+                    alert(3);
                 },
                 methods:{
                     add(){
