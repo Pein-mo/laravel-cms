@@ -17,10 +17,10 @@ class WxConfigTableSeeder extends Seeder
         Model::unguard();
 
         \DB::table('wx_configs')->insert([
-            ['name' => 'token', 'value' => '808c2b8e93acdda22e'],
-            ['name' => 'encodingaeskey', 'value' => ''],
-            ['name' => 'appid', 'value' => 'wxbf22595c137a3602'],
-            ['name' => 'appsecret', 'value' => 'ed652c01f8b7b8d03d7694c67ae7dc6a'],
+            ['name' => 'token', 'value' => 'q20031120'],
+            ['name' => 'encodingaeskey', 'value' => 'meoGpLGM6hhpbYziuxMvUqlW9pYOcM0eh3Ov1mSnf2y'],
+            ['name' => 'appid', 'value' => 'wx08d98d565f03afdd'],
+            ['name' => 'appsecret', 'value' => '61bf11bd344defc6674399f953c5e63c'],
         ]);
     }
 }
