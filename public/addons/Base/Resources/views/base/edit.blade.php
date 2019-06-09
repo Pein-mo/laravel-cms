@@ -4,7 +4,7 @@
         <div class="card-header">基本回复管理</div>
         <ul role="tablist" class="nav nav-tabs">
             <li class="nav-item"><a href="/base/base" class="nav-link">基本回复列表</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">添加基本回复</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">编辑基本回复</a></li>
         </ul>
         @csrf @method('PUT')
         {!! $ruleView !!}
