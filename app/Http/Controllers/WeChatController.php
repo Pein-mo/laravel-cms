@@ -32,20 +32,13 @@ class WeChatController extends Controller
         {
             return $this->respnse($instance->Content);
         }
-        $instance = WeChat::instance('button');
-        //关注用户扫描二维码事件
-        if ($instance->isClickEvent()) {
-            //获取消息内容
+
+        $instance = (new WeChat())->instance('button');
+//        $instance = WeChat::instance('button');
+        if($instance->isClickEvent()){
             $message = $instance->getMessage();
-            //向用户回复消息
-            return WeChat::instance('message')->text("点击了菜单,EventKey: {$message->EventKey}");
+            return $this->respnse($message->EventKey);
         }
-//        $instance = (new WeChat())->instance('button');
-////        $instance = WeChat::instance('button');
-//        if($instance->isClickEvent()){
-//            $message = $instance->getMessage();
-//            return $this->respnse($message->EventKey);
-//        }
 
     }
 
