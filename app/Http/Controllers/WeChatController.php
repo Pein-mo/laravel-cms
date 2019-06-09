@@ -12,11 +12,14 @@ class WeChatController extends Controller
 
     public function __construct(WxConfig $wxConfig)
     {
+        $this->valid();
+    }
+
+    protected function valid(WxConfig $wxConfig){
         $config =array_merge(include base_path('config').'/wechat.php',$wxConfig->pluck('value','name')->toArray());
         (new WeChat)->config($config);
         (new WeChat)->valid();
     }
-
     public function handler(){
         //消息管理模块
         $instance = new Message;
