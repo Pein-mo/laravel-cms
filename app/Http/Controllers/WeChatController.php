@@ -44,7 +44,10 @@ class WeChatController extends Controller
     protected function respnse($key){
 
         $rule = WxKeyword::firstOrNew(['key'=>$key])->rule;
-        $class = 'Modules\\'.$rule['module'].'\Response';
-        return call_user_func_array([new $class,'handle'],[$rule]);
+        if($rule){
+            $class = 'Modules\\'.$rule['module'].'\Response';
+            return call_user_func_array([new $class,'handle'],[$rule]);
+        }
+
     }
 }
