@@ -6,17 +6,18 @@ use Houdunwang\WeChat\Build\Message\Message;
 use Houdunwang\WeChat\WeChat;
 use Illuminate\Http\Request;
 use Modules\Wx\Entities\WxConfig;
+use Modules\Wx\Services\WeChatServer;
 
 class WeChatController extends Controller
 {
 
-    public function __construct(WxConfig $wxConfig)
+    public function __construct()
     {
         $this->valid();
     }
 
-    protected function valid(WxConfig $wxConfig){
-        $config =array_merge(include base_path('config').'/wechat.php',$wxConfig->pluck('value','name')->toArray());
+    protected function valid(){
+        $config =array_merge(include base_path('config').'/wechat.php',WxConfig::pluck('value','name')->toArray());
         (new WeChat)->config($config);
         (new WeChat)->valid();
     }
