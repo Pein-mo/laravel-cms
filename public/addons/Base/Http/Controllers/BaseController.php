@@ -3,6 +3,7 @@
 namespace Modules\Base\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use function foo\func;
 use Illuminate\Http\Request;
 use Modules\Base\Entities\Base;
 use Modules\Base\Http\Requests\BaseRequest;
@@ -29,7 +30,11 @@ class BaseController extends Controller
     //保存数据
     public function store(BaseRequest $request, Base $base, WeChatServer $weChatServer)
     {
-        $data = $weChatServer->ruleSave();
+//        事物
+        \DB::transaction(function () use ($weChatServer, $base, $request) {
+            $rule = $weChatServer->ruleSave();
+            $base->create(['rule_id'=>$rule['id'],'content'=>$request->input('data')]);
+        });
 
         return redirect('/base/base')->with('success', '保存成功');
     }

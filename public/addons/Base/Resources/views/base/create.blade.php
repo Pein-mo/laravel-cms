@@ -26,7 +26,9 @@
             <div class="card-footer text-muted">
                 <button class="btn btn-primary offset-sm-2" @click="add()" type="button">添加回复条目</button>
             </div>
+            <textarea name="data" hidden>@{{ contents }}</textarea>
         </div>
+
         <button class="btn btn-primary">提交保存</button>
     </form>
 
