@@ -33,6 +33,8 @@ class WeChatController extends Controller
             if ($rule = $this->getRole($instance->Content)){
                 //向用户回复消息
                 return $instance->text($rule->name);
+            }else{
+                return $instance->text('听不懂你说啥啊');
             }
 
         }
