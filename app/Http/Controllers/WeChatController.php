@@ -31,8 +31,10 @@ class WeChatController extends Controller
         if ($instance->isTextMsg())
         {
             if ($rule = $this->getRole($instance->Content)){
+                $class = 'Modules\\'.$rule['name'].'\Response';
+                return call_user_func_array([new $class,'handle'],[$rule]);
                 //向用户回复消息
-                return $instance->text($rule->name);
+//                return $instance->text($rule->name);
             }else{
                 return $instance->text('听不懂你说啥啊');
             }
