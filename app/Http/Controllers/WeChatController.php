@@ -30,20 +30,21 @@ class WeChatController extends Controller
         //判断是否是文本消息
         if ($instance->isTextMsg())
         {
-            if ($rule = $this->getRole($instance->Content)){
-                $class = 'Modules\\'.$rule['module'].'\Response';
-                return call_user_func_array([new $class,'handle'],[$rule]);
-                //向用户回复消息
-//                return $instance->text($rule->name);
-            }else{
-                return $instance->text('听不懂你说啥啊');
-            }
+            return $this->respnse($instance->Content);
+        }
 
+        $instance = WeChat::instance('button');
+        if($instance->isClickEvent()){
+            $message = $instance->getMessage();
+            return $this->respnse($message->EventKey);
         }
 
     }
 
-    protected function getRole($key){
-        return WxKeyword::firstOrNew(['key'=>$key])->rule;
+    protected function respnse($key){
+
+        $rule = WxKeyword::firstOrNew(['key'=>$key])->rule;
+        $class = 'Modules\\'.$rule['module'].'\Response';
+        return call_user_func_array([new $class,'handle'],[$rule]);
     }
 }
