@@ -29,7 +29,7 @@ class WeChatServer
 
     public function ruleSave()
     {
-        dd(request()->all());
+//        dd(request()->all());
         $post = json_decode(request()->input('_rule'), true);
         \Validator::make($post, [
             'name' => "required",

@@ -13,7 +13,6 @@ class CreateWxRulesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name')->comment('规则名称');
-            $table->string('action')->nullable()->comment('动作');
             $table->text('module')->comment('模块');
 
         });
