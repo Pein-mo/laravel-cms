@@ -32,8 +32,8 @@ class WeChatController extends Controller
         {
             return $this->respnse($instance->Content);
         }
-
-        $instance = WeChat::instance('button');
+        $instance = (new WeChat())->instance('button');
+//        $instance = WeChat::instance('button');
         if($instance->isClickEvent()){
             $message = $instance->getMessage();
             return $this->respnse($message->EventKey);
