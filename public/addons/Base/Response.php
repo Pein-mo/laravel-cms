@@ -10,8 +10,9 @@ use Modules\Base\Entities\Base;
 class Response
 {
     public function handle($rule){
-        $base = Base::firstOrNew(['rule_id'=>$rule['id']]);
         $instance = new Message();
-        return $instance->text($base->content);
+        $base = Base::firstOrNew(['rule_id'=>$rule['id']]);
+        $contents = json_decode($base,true);
+        return $instance->text(array_random($contents)['content']);
     }
 }
