@@ -38,7 +38,7 @@
             new vue({
                 el: "#app",
                 data: {
-                    contents: {!! old('data','[{content: ""}]') !!}
+                    contents: {!! old('data',$base['content']) !!}
                 },
                 //挂载
                 mounted() {
