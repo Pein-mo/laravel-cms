@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="420">
+              <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -67,20 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state relative-caret-position="100">
+              <caret line="5" column="48" selection-end-line="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php">
+        <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="160">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -146,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/wechat.php" />
         <option value="$PROJECT_DIR$/Modules/Wx/Resources/views/wx_config/index.blade.php" />
@@ -193,10 +193,11 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_07_024905_create_wx_rules_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php" />
-        <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Entities/Base.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" />
       </list>
     </option>
   </component>
@@ -478,12 +479,12 @@
       <workItem from="1559785442131" duration="21235000" />
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
-      <workItem from="1560045441371" duration="5278000" />
+      <workItem from="1560045441371" duration="6544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414644000" />
+    <option name="totallyTimeSpent" value="415910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -552,11 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Admin/Providers/AdminServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -848,17 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -872,10 +861,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="100">
+          <caret line="5" column="48" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Resources/views/base/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
         </state>
       </provider>
     </entry>

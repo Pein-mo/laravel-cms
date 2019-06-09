@@ -39,16 +39,12 @@ class BaseController extends Controller
         return redirect('/base/base')->with('success', '保存成功');
     }
 
-    //显示记录
-    public function show(Base $field)
-    {
-        return view('base::base.show', compact('field'));
-    }
 
     //编辑视图
-    public function edit(Base $base)
+    public function edit(Base $base,WeChatServer $weChatServer)
     {
-        return view('base::base.edit', compact('base'));
+        $ruleView = $weChatServer->ruleView($base['rule_id']);
+        return view('base::base.edit', compact('base','ruleView'));
     }
 
     //更新数据

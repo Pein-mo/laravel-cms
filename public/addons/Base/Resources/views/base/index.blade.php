@@ -23,7 +23,7 @@
                         @foreach($data as $d)
                             <tr>
                                 <td>{!! $d['id'] !!}</td>
-                                <td>{!! $d->rule->name !!}</td>
+                                <td>{!! $d->rule?$d->rule->name:'' !!}</td>
                                 <td>{!! $d['created_at'] !!}</td>
                                 <td>{!! $d['updated_at'] !!}</td>
                                 <td class="text-right">
