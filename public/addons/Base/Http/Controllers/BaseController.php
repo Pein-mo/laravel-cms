@@ -48,10 +48,15 @@ class BaseController extends Controller
     }
 
     //更新数据
-    public function update(BaseRequest $request, Base $base)
+    public function update(BaseRequest $request, Base $base,WeChatServer $weChatServer)
     {
-        $base->update($request->all());
 
+        \DB::transaction(function () use ($weChatServer, $base, $request) {
+            $rule = $weChatServer->ruleSave();
+            $base->rule_id = $rule['id'];
+            $base->content = $request->input('data');
+            $base->save();
+        });
         return redirect('/base/base')->with('success', '更新成功');
     }
 
