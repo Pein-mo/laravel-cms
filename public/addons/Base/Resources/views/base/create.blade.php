@@ -1,14 +1,15 @@
 @extends('admin::layouts.master')
 @section('content')
     <form action="/base/base" method="post">
+        <div class="card-header">基本回复管理</div>
+        <ul role="tablist" class="nav nav-tabs">
+            <li class="nav-item"><a href="/base/base" class="nav-link">基本回复列表</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">添加基本回复</a></li>
+        </ul>
         @csrf
         {!! $ruleView !!}
         <div class="card" id="app">
-            <div class="card-header">基本回复管理</div>
-            <ul role="tablist" class="nav nav-tabs">
-                <li class="nav-item"><a href="/wx/wx_reply_base" class="nav-link">基本回复列表</a></li>
-                <li class="nav-item"><a href="#" class="nav-link active">添加基本回复</a></li>
-            </ul>
+
 
             <div class="card-body card-body-contrast">
 
@@ -37,7 +38,7 @@
             new vue({
                 el: "#app",
                 data: {
-                    contents: [{content: ''}]
+                    contents: {!! old('data','[{content: ""}]') !!}
                 },
                 //挂载
                 mounted() {
