@@ -31,7 +31,7 @@
                                     <button class="btn btn-secondary" type="button" @click="edit(v)">编辑</button>
                                     <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                                     <button class="btn btn-secondary" type="button" @click="prev(i)" v-if="i>0">上移</button>
-                                    <button class="btn btn-secondary" type="button" @click="next(i)" v-if="i<news.lenght-1">下移</button>
+                                    <button class="btn btn-secondary" type="button" @click="next(i)" v-if="i<news.length-1">下移</button>
                                 </div>
                             </div>
                             <div class="pt-2">
