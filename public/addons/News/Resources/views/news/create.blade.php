@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="news">
-                            <div class="first" v-for="(v,i) in news">
+                            <div class="first" v-for="(v,i) in news" v-if="i==0">
                                 <img :src="v.picurl" alt="">
                                 <p>@{{v.title}}</p>
                                 <div class="edit">
@@ -24,9 +24,9 @@
                                     <button class="btn btn-secondary" type="button">下移</button>
                                 </div>
                             </div>
-                            <div class="item">
-                                <img src="http://img2.imgtn.bdimg.com/it/u=2033838781,461625559&fm=26&gp=0.jpg" alt="">
-                                <p>测试2</p>
+                            <div class="item" v-for="(v,i) in news" v-if="i!=0">
+                                <img :src="v.picurl" alt="">
+                                <p>@{{v.title}}</p>
                                 <div class="edit">
                                     <button class="btn btn-secondary" type="button">编辑</button>
                                     <button class="btn btn-secondary" type="button">删除</button>
