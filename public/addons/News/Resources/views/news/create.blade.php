@@ -80,6 +80,7 @@
 
         </div>
     </form>
+    <textarea name="" id="" cols="30" rows="10">@{{active}}</textarea>
 @endsection
 @section('scripts')
     <script>
