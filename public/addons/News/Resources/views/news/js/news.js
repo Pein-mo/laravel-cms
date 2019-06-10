@@ -39,6 +39,7 @@ define(['vue', 'hdjs'], function (vue, hdjs) {
                     })
                 },
                 removeImg(){
+                    console.log(this.active.picurl);
                     this.active.picurl = '';
                 }
             }
