@@ -12,7 +12,7 @@ class CreateNewsTable extends Migration
         Schema::create('news', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('data')->comment('图文内容|textarea');
+            $table->text('data')->comment('图文内容|textarea');
             $table->integer('rule_id')->comment('规则编号|input');
 
         });

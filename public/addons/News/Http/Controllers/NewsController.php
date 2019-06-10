@@ -34,16 +34,13 @@ class NewsController extends Controller
         return redirect('/news/news')->with('success', '保存成功');
     }
 
-    //显示记录
-    public function show(News $field)
-    {
-        return view('news::news.show', compact('field'));
-    }
+
 
     //编辑视图
-    public function edit(News $news)
+    public function edit(News $news,WeChatServer $weChatServer)
     {
-        return view('news::news.edit', compact('news'));
+        $ruleView = $weChatServer->ruleView($news['rule_id']);
+        return view('news::news.edit', compact('news','ruleView'));
     }
 
     //更新数据
