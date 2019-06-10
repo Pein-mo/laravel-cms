@@ -14,10 +14,9 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="news">
-                            <div class="first">
-
-                                <img src="http://img0.imgtn.bdimg.com/it/u=3692441613,3435428941&fm=26&gp=0.jpg" alt="">
-                                <p>测试1</p>
+                            <div class="first" v-for="(v,i) in news">
+                                <img :src="v.picurl" alt="">
+                                <p>@{{v.title}}</p>
                                 <div class="edit">
                                     <button class="btn btn-secondary" type="button">编辑</button>
                                     <button class="btn btn-secondary" type="button">删除</button>
