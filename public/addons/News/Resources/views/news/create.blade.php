@@ -9,7 +9,7 @@
     </ul>
     <form action="/news/news" method="post">
         @csrf
-        {!! ruleView !!}
+        {!! $ruleView !!}
         <div class="card" id="app">
             <div class="card-header">图文回复管理</div>
             <div class="card-body">
