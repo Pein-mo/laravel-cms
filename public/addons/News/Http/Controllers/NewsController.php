@@ -49,7 +49,7 @@ class NewsController extends Controller
         \DB::transaction(function () use ($request,$news,$weChatServer){
             $rule = $weChatServer->ruleSave();
             $news['rule_id'] = $rule['id'];
-            $news->['data'] = $request->input('data');
+            $news['data'] = $request->input('data');
             $news->save();
         });
         return redirect('/news/news')->with('success','更新成功');
