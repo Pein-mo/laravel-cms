@@ -3,7 +3,7 @@ define(['vue', 'hdjs'], function (vue, hdjs) {
         new vue({
             el: "#app",
             mounted(){
-
+                this.active = this.news[0];
             },
             data: {
                 news: data,
@@ -37,6 +37,9 @@ define(['vue', 'hdjs'], function (vue, hdjs) {
                     hdjs.image(function (images) {
                         This.active.picurl = images[0];
                     })
+                },
+                removeImg(){
+                    this.active.picurl = '';
                 }
             }
         })

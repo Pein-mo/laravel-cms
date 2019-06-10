@@ -64,7 +64,7 @@
                                 <div style="display: inline-block;position: relative;">
                                     <img :src="active.picurl" class="img-responsive img-thumbnail" width="150">
                                     <em class="close" style="position: absolute;top: 3px;right: 8px;" title="删除这张图片"
-                                        onclick="removeImg(this)">×</em>
+                                        @onclick="removeImg()">×</em>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,9 @@
         {{--    news([])--}}
         {{--});--}}
         require(['{{asset('addons/News/Resources/views/news/js/news.js')}}'], function (news) {
-            news([])
+            news([{title: '后盾人', 'discription': 'houdunren.com', 'picurl': '/plugin/hdjs/image/nopic.jpg', 'url': 'http://www.houdunwang.com'}])
         })
+
+
     </script>
 @endsection
