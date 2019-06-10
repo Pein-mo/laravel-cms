@@ -1,7 +1,7 @@
 @extends('admin::layouts.master')
 @section('head')
     <link rel="stylesheet" href="{{asset('addons/News/Resources/views/news/less/news.css')}}">
-    @endsection
+@endsection
 @section('content')
     <ul role="tablist" class="nav nav-tabs">
         <li class="nav-item"><a href="/news/news" class="nav-link">图文回复列表</a></li>
@@ -14,18 +14,18 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="news">
-                            <div class="first"  v-if="i==0">
+                            <div class="first" v-if="i==0">
 
                                 <img src="http://img0.imgtn.bdimg.com/it/u=3692441613,3435428941&fm=26&gp=0.jpg" alt="">
                                 <p>测试1</p>
                                 <div class="edit">
-                                    <button class="btn btn-secondary" type="button" >编辑</button>
-                                    <button class="btn btn-secondary" type="button" >删除</button>
-                                    <button class="btn btn-secondary" type="button"  >上移</button>
-                                    <button class="btn btn-secondary" type="button"  >下移</button>
+                                    <button class="btn btn-secondary" type="button">编辑</button>
+                                    <button class="btn btn-secondary" type="button">删除</button>
+                                    <button class="btn btn-secondary" type="button">上移</button>
+                                    <button class="btn btn-secondary" type="button">下移</button>
                                 </div>
                             </div>
-                            <div class="item" >
+                            <div class="item">
                                 <img src="http://img2.imgtn.bdimg.com/it/u=2033838781,461625559&fm=26&gp=0.jpg" alt="">
                                 <p>测试2</p>
                                 <div class="edit">
@@ -48,4 +48,11 @@
 
         </div>
     </form>
+@endsection
+@section('scripts')
+    <script>
+        require(["{{asset('addons/News/Resources/views/news/js/news.js')}}"],function (news) {
+            news([]);
+        });
+    </script>
 @endsection
