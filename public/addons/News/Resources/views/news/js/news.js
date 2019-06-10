@@ -1,10 +1,13 @@
-require(['vue', 'hdjs'], function (vue, hdjs) {
+define(['vue', 'hdjs'], function (vue, hdjs) {
     return function (data) {
         new vue({
             el: "#app",
+            mounted(){
+
+            },
             data: {
-                news:data,
-                active:{}
+                news: data,
+                active: {}
             },
             methods: {
                 add() {
@@ -19,10 +22,13 @@ require(['vue', 'hdjs'], function (vue, hdjs) {
                 next(pos) {
 
                 },
-                edit(pos){
+                edit(item) {
+
+                },
+                upImagePc(){
 
                 }
             }
         })
     }
-});
+})
