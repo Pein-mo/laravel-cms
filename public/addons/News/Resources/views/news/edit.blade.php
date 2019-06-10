@@ -1,11 +1,12 @@
 @extends('admin::layouts.master')
 @section('content')
+    <ul role="tablist" class="nav nav-tabs">
+        <li class="nav-item"><a href="/news/news" class="nav-link">图文回复列表</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">修改图文回复</a></li>
+    </ul>
     <div class="card" id="app">
         <div class="card-header">图文回复管理</div>
-        <ul role="tablist" class="nav nav-tabs">
-            <li class="nav-item"><a href="/news/news" class="nav-link">图文回复列表</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">修改图文回复</a></li>
-        </ul>
+
         <form action="/news/news/{{$news['id']}}" method="post">
             <div class="card-body card-body-contrast">
                 @csrf @method('PUT')
