@@ -7,7 +7,7 @@
         <li class="nav-item"><a href="/news/news" class="nav-link">图文回复列表</a></li>
         <li class="nav-item"><a href="#" class="nav-link active">添加图文回复</a></li>
     </ul>
-    <form action="/news/news/{{news['id']}}" method="post">
+    <form action="/news/news/{{$news['id']}}" method="post">
         @csrf
         @method('PUT')
         {!! $ruleView !!}
