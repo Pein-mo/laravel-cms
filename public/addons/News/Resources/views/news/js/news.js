@@ -33,7 +33,10 @@ define(['vue', 'hdjs'], function (vue, hdjs) {
                     this.active = item;
                 },
                 upImagePc(){
-
+                    let This =this;
+                    hdjs.image(function (images) {
+                        This.active.picurl = images[0];
+                    })
                 }
             }
         })
