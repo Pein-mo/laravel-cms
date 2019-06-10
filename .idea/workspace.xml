@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="223">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="540">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -480,12 +479,12 @@
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
       <workItem from="1560045441371" duration="18313000" />
-      <workItem from="1560138623392" duration="7824000" />
+      <workItem from="1560138623392" duration="8029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435503000" />
+    <option name="totallyTimeSpent" value="435708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -869,15 +868,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="223">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="540">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>

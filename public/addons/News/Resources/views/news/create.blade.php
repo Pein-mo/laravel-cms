@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="news">
-                            <div class="first" v-if="i==0">
+                            <div class="first">
 
                                 <img src="http://img0.imgtn.bdimg.com/it/u=3692441613,3435428941&fm=26&gp=0.jpg" alt="">
                                 <p>测试1</p>
