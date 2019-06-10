@@ -18,20 +18,20 @@
                                 <img :src="v.picurl" alt="">
                                 <p>@{{v.title}}</p>
                                 <div class="edit">
-                                    <button class="btn btn-secondary" type="button">编辑</button>
+                                    <button class="btn btn-secondary" type="button" @click="edit(v)">编辑</button>
                                     <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
-                                    <button class="btn btn-secondary" type="button">上移</button>
-                                    <button class="btn btn-secondary" type="button">下移</button>
+                                    <button class="btn btn-secondary" type="button" @click="prev(i)" v-if="i>0">上移</button>
+                                    <button class="btn btn-secondary" type="button" @click="next(i)" v-if="i<news.lenght-1">下移</button>
                                 </div>
                             </div>
                             <div class="item" v-for="(v,i) in news" v-if="i!=0">
                                 <img :src="v.picurl" alt="">
                                 <p>@{{v.title}}</p>
                                 <div class="edit">
-                                    <button class="btn btn-secondary" type="button">编辑</button>
+                                    <button class="btn btn-secondary" type="button" @click="edit(v)">编辑</button>
                                     <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
-                                    <button class="btn btn-secondary" type="button">上移</button>
-                                    <button class="btn btn-secondary" type="button">下移</button>
+                                    <button class="btn btn-secondary" type="button" @click="prev(i)" v-if="i>0">上移</button>
+                                    <button class="btn btn-secondary" type="button" @click="next(i)" v-if="i<news.lenght-1">下移</button>
                                 </div>
                             </div>
                             <div class="pt-2">
@@ -40,7 +40,40 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-
+                        <div class="form-group row">
+                            <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">标题</label>
+                            <div class="col-12 col-sm-8">
+                                <input id="inputSmall" type="text" v-model="active.title" class="form-control form-control-sm">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">描述</label>
+                            <div class="col-12 col-sm-8">
+                                <textarea class="form-control-sm form-control" v-model="active.discription" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">缩略图</label>
+                            <div class="col-sm-8">
+                                <div class="input-group mb-1">
+                                    <input class="form-control  form-control-sm" v-model="active.picurl">
+                                    <div class="input-group-append">
+                                        <button @click="upImagePc()" class="btn btn-secondary" type="button">单图上传</button>
+                                    </div>
+                                </div>
+                                <div style="display: inline-block;position: relative;">
+                                    <img :src="active.picurl" class="img-responsive img-thumbnail" width="150">
+                                    <em class="close" style="position: absolute;top: 3px;right: 8px;" title="删除这张图片"
+                                        onclick="removeImg(this)">×</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputSmall" class="col-12 col-sm-3 col-form-label text-sm-right">链接</label>
+                            <div class="col-12 col-sm-8">
+                                <input id="inputSmall" type="text" v-model="active.url" class="form-control form-control-sm">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

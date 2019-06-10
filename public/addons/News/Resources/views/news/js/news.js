@@ -20,13 +20,17 @@ define(['vue', 'hdjs'], function (vue, hdjs) {
                     this.news.splice(pos,1);
                 },
                 prev(pos) {
-
+                    let item = this.news[pos];
+                    this.news.splice(pos,1,this.news[pos-1]);
+                    this.news.splice(pos-1,1,item);
                 },
                 next(pos) {
-
+                    let item = this.news[pos];
+                    this.news.splice(pos,1,this.news[pos+1]);
+                    this.news.splice(pos+1,1,item);
                 },
                 edit(item) {
-
+                    this.active = item;
                 },
                 upImagePc(){
 
