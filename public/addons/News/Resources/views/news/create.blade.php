@@ -8,6 +8,8 @@
         <li class="nav-item"><a href="#" class="nav-link active">添加图文回复</a></li>
     </ul>
     <form action="/news/news" method="post">
+        @csrf
+        {!! ruleView !!}
         <div class="card" id="app">
             <div class="card-header">图文回复管理</div>
             <div class="card-body">
@@ -77,8 +79,9 @@
                     </div>
                 </div>
             </div>
-            <textarea name="" id="" cols="30" rows="10">@{{active}}</textarea>
+            <textarea name="data" hidden>@{{news}}</textarea>
         </div>
+        <button class="btn btn-primary">保存提交</button>
     </form>
 
 @endsection

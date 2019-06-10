@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Modules\News\Entities\News;
 use Modules\News\Http\Requests\NewsRequest;
+use Modules\Wx\Services\WeChatServer;
+
 class NewsController extends Controller
 {
     //显示列表
@@ -15,9 +17,10 @@ class NewsController extends Controller
     }
 
     //创建视图
-    public function create(News $news)
+    public function create(News $news,WeChatServer $weChatServer)
     {
-        return view('news::news.create',compact('news'));
+        $ruleView = $weChatServer->ruleView();
+        return view('news::news.create',compact('news','ruleView'));
     }
 
     //保存数据
