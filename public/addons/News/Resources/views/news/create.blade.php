@@ -19,7 +19,7 @@
                                 <p>@{{v.title}}</p>
                                 <div class="edit">
                                     <button class="btn btn-secondary" type="button">编辑</button>
-                                    <button class="btn btn-secondary" type="button">删除</button>
+                                    <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                                     <button class="btn btn-secondary" type="button">上移</button>
                                     <button class="btn btn-secondary" type="button">下移</button>
                                 </div>
@@ -29,7 +29,7 @@
                                 <p>@{{v.title}}</p>
                                 <div class="edit">
                                     <button class="btn btn-secondary" type="button">编辑</button>
-                                    <button class="btn btn-secondary" type="button">删除</button>
+                                    <button class="btn btn-secondary" type="button" @click="del(i)">删除</button>
                                     <button class="btn btn-secondary" type="button">上移</button>
                                     <button class="btn btn-secondary" type="button">下移</button>
                                 </div>
