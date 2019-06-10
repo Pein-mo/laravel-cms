@@ -42,6 +42,11 @@ class WeChatController extends Controller
 
     }
 
+    /**
+     * 返回微信消息
+     * @param $key 微信关键词
+     * @return mixed
+     */
     protected function respnse($key){
 
         $rule = WxKeyword::firstOrNew(['key'=>$key])->rule;

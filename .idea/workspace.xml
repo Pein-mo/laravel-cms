@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/addons/News/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/menus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Config/permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Console/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Migrations/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Migrations/2019_06_10_073604_create_news_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Seeders/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/Seeders/NewsDatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Database/factories/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Entities/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Entities/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Controllers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Middleware/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Requests/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/Requests/NewsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Http/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Providers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Providers/NewsServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/assets/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/lang/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/Tests/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/module.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/News/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75e3a452-b3c3-46ef-b040-9133a38f0c33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75e3a452-b3c3-46ef-b040-9133a38f0c33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WeChatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeChatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,92 +87,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="50" column="63" lean-forward="true" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_rules">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-737">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeChatController.php">
+        <entry file="file://$PROJECT_DIR$/public/addons/News/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#40#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Base/Response.php">
+        <entry file="file://$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding>
-                <element signature="e#34#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Base/Entities/Base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding>
-                <element signature="e#41#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_keywords">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="260">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -163,11 +133,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="laravel-cms module:migrate Wx" />
-      <command text="laravel-cms module:migrate-refresh Wx" />
-      <command text="laravel-cms module:migrate Wx" />
-      <command text="laravel-cms module:migrate-refresh Wx" />
-      <command text="laravel-cms hd:model WxRule Wx" />
       <command text="laravel-cms hd:model WxKeyword Wx" />
       <command text="laravel-cms migrate" />
       <command text="laravel-cms hd:model WxReplyBase Wx" />
@@ -188,6 +153,11 @@
       <command text="laravel-cms module:make-seed WxConfigSeeder Wx" />
       <command text="laravel-cms module:migrate-refresh Base --seed" />
       <command text="laravel-cms module:migrate-refresh Wx --seed" />
+      <command text="laravel-cms hd:module New" />
+      <command text="laravel-cms hd:module News" />
+      <command text="laravel-cms hd:model News News" />
+      <command text="laravel-cms migrate" />
+      <command text="laravel-cms hd:autocreate News News 图文回复" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -199,10 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/Wx/Resources/views/wx_config/index.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/modules.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/public/plugin/pjax/pjax.js" />
         <option value="$PROJECT_DIR$/public/addons/Article/Entities/Category.php" />
@@ -230,7 +196,6 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_reply_base/create.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_090052_create_bases_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/baseController.php" />
-        <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Http/Controllers/WxReplyBaseController.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Http/routes.php" />
@@ -250,6 +215,11 @@
         <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php" />
         <option value="$PROJECT_DIR$/public/addons/Base/Response.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WeChatController.php" />
+        <option value="$PROJECT_DIR$/public/addons/News/Database/Migrations/2019_06_10_073604_create_news_table.php" />
+        <option value="$PROJECT_DIR$/public/addons/News/Config/menus.php" />
+        <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/News/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -392,7 +362,24 @@
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,18 +486,19 @@
       <workItem from="1559785442131" duration="21235000" />
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
-      <workItem from="1560045441371" duration="18131000" />
+      <workItem from="1560045441371" duration="18313000" />
+      <workItem from="1560138623392" duration="2132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427497000" />
+    <option name="totallyTimeSpent" value="429811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20181565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20460893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -573,62 +561,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Resources/views/menu/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/Controllers/SlideController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/Requests/SlideRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2018_07_30_024732_create_wx_configs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_05_065850_create_wx_menus_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_message.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="169" column="38" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_menus">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -736,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Config/menus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Base/Config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -757,22 +682,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Config/menus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="71" selection-start-column="71" selection-end-column="71" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxRule.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -802,37 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Entities/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#41#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="50" column="63" lean-forward="true" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_keywords">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -854,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/bases">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -875,10 +748,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_rules">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -892,20 +779,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Entities/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#41#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Services/WeChatServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/wx_keywords">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WeChatController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="143">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#40#84#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Database/Migrations/2019_06_10_073604_create_news_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Base/Config/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Config/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Entities/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Wx/Config/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
