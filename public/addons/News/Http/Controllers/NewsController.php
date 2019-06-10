@@ -24,10 +24,14 @@ class NewsController extends Controller
     }
 
     //保存数据
-    public function store(NewsRequest $request,News $news)
+    public function store(NewsRequest $request,News $news,WeChatServer $weChatServer)
     {
-        $news->fill($request->all());
-        $news->save();
+        \DB::transaction(function () use ($request,$news,$weChatServer){
+            $rule = $weChatServer->ruleSave();
+            $news['rule_id'] = $rule['id'];
+            $news['data'] = $request->input('data');
+            $news->save();
+        });
 
         return redirect('/news/news')->with('success', '保存成功');
     }
