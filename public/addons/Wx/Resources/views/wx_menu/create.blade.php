@@ -96,8 +96,8 @@
         {{--require(["{{asset('addons/Wx/Resources/views/menu/index.js')}}"], function (index) {--}}
         {{--    index([]);--}}
         {{--});--}}
-        require(['{{asset('addons/News/Resources/views/news/js/news.js')}}'], function (news) {
-            news([{title: '后盾人', 'discription': 'houdunren.com', 'picurl': '/plugin/hdjs/image/nopic.jpg', 'url': 'http://www.houdunwang.com'}])
+        require(['{{asset('addons/News/Resources/views/news/js/news.js')}}'], function (news1) {
+            news1([{title: '后盾人', 'discription': 'houdunren.com', 'picurl': '/plugin/hdjs/image/nopic.jpg', 'url': 'http://www.houdunwang.com'}])
         })
     </script>
 @endsection
