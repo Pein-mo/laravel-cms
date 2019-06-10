@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="103">
+              <caret line="46" column="86" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -502,12 +502,12 @@
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
       <workItem from="1560045441371" duration="18313000" />
-      <workItem from="1560138623392" duration="19251000" />
+      <workItem from="1560138623392" duration="19350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446930000" />
+    <option name="totallyTimeSpent" value="447029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -913,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="103">
+          <caret line="46" column="86" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
         </state>
       </provider>
     </entry>

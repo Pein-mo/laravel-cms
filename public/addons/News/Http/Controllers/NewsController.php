@@ -44,7 +44,7 @@ class NewsController extends Controller
     }
 
     //更新数据
-    public function update(NewsRequest $request, News $news)
+    public function update(NewsRequest $request, News $news,WeChatServer $weChatServer)
     {
         \DB::transaction(function () use ($request,$news,$weChatServer){
             $rule = $weChatServer->ruleSave();
