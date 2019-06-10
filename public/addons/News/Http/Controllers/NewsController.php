@@ -46,7 +46,12 @@ class NewsController extends Controller
     //更新数据
     public function update(NewsRequest $request, News $news)
     {
-        $news->update($request->all());
+        \DB::transaction(function () use ($request,$news,$weChatServer){
+            $rule = $weChatServer->ruleSave();
+            $news['rule_id'] = $rule['id'];
+            $news->['data'] = $request->input('data');
+            $news->save();
+        });
         return redirect('/news/news')->with('success','更新成功');
     }
 
