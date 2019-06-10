@@ -12,12 +12,34 @@
             <div class="card-header">图文回复管理</div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="news">
-
+                            <div class="first"  v-if="i==0">
+                                <img  alt="">
+                                <p></p>
+                                <div class="edit">
+                                    <button class="btn btn-secondary" type="button" >编辑</button>
+                                    <button class="btn btn-secondary" type="button" >删除</button>
+                                    <button class="btn btn-secondary" type="button"  >上移</button>
+                                    <button class="btn btn-secondary" type="button"  >下移</button>
+                                </div>
+                            </div>
+                            <div class="item" >
+                                <img  alt="">
+                                <p></p>
+                                <div class="edit">
+                                    <button class="btn btn-secondary" type="button">编辑</button>
+                                    <button class="btn btn-secondary" type="button">删除</button>
+                                    <button class="btn btn-secondary" type="button">上移</button>
+                                    <button class="btn btn-secondary" type="button">下移</button>
+                                </div>
+                            </div>
+                            <div class="pt-2">
+                                <button class="btn btn-secondary btn-block" type="button" @click="add">添加图文</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-8">
 
                     </div>
                 </div>

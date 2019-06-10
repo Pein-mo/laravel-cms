@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +49,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
+            <state relative-caret-position="403">
+              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="-297">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -179,8 +180,8 @@
         <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/News/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/edit.blade.php" />
-        <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less" />
+        <option value="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" />
       </list>
     </option>
   </component>
@@ -477,12 +478,12 @@
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
       <workItem from="1560045441371" duration="18313000" />
-      <workItem from="1560138623392" duration="3716000" />
+      <workItem from="1560138623392" duration="4252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431395000" />
+    <option name="totallyTimeSpent" value="431931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -869,17 +870,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
+        <state relative-caret-position="-297">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/less/news.less">
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="403">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
         </state>
       </provider>
     </entry>
