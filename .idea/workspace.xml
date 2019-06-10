@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/js/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="343">
+              <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -479,12 +477,12 @@
       <workItem from="1559866320198" duration="21287000" />
       <workItem from="1559961917878" duration="16306000" />
       <workItem from="1560045441371" duration="18313000" />
-      <workItem from="1560138623392" duration="5836000" />
+      <workItem from="1560138623392" duration="6359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="433515000" />
+    <option name="totallyTimeSpent" value="434038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -873,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="343">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>

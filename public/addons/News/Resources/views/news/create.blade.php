@@ -51,7 +51,7 @@
 @endsection
 @section('scripts')
     <script>
-        require(["{{asset('addons/News/Resources/views/news/js/news.js')}}"],function (news) {
+        require(['{{asset('addons/News/Resources/views/news/js/news.js')}}'],function (news) {
             news([]);
         });
     </script>
