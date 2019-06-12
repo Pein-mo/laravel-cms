@@ -29,6 +29,7 @@ class AuthController extends Controller
     //获取用户资料
     public function me()
     {
+        return $this->response->item(auth('api')->user(),new UserTransformer());
         return response()->json(auth('api')->user(),new UserTransformer());
     }
 
