@@ -34,6 +34,10 @@ $api->version('v1',['namespace'=>'App\Http\Controllers\Api'], function ($api) {
     $api->get('slides/{limit?}',"SlideController@index");
 //    栏目接口
     $api->get('categorys',"CategoryController@index");
+
+    $api->post('login', 'AuthController@login');
+    $api->get('logout', 'AuthController@logout');
+    $api->get('me', 'AuthController@me');
 });
 #如果v2不是默认版本，需要设置请求头
 #Accept: application/[配置项 standardsTree].[配置项 subtype].v2+json
