@@ -23,8 +23,11 @@ $api->version('v1',['namespace'=>'App\Http\Controllers\Api'], function ($api) {
     $api->group(['middleware' => 'api.throttle', 'limit' => 2, 'expires' => 1], function ($api) {
         $api->get('users', 'UserController@users');
     });
+//    文章列表
     $api->get('content','ContentController@index');
     $api->get('content/{id}','ContentController@show');
+//    幻灯片接口
+    $api->get('slides/{limit?}',"SlideController@index");
 });
 #如果v2不是默认版本，需要设置请求头
 #Accept: application/[配置项 standardsTree].[配置项 subtype].v2+json
