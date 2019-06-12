@@ -20,9 +20,7 @@ $api = app(\Dingo\Api\Routing\Router::class);
 
 #默认配置指定的是v1版本，可以直接通过 {host}/api/version 访问到
 $api->version('v1', function ($api) {
-    $api->get('version', function () {
-        return 'v1';
-    });
+    $api->get('users','App\Http\Controller\Api\UserController@users');
 });
 #如果v2不是默认版本，需要设置请求头
 #Accept: application/[配置项 standardsTree].[配置项 subtype].v2+json
