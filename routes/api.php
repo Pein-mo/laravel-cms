@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+$api = app(\Dingo\Api\Routing\Router::class);
+
+#默认配置指定的是v1版本，可以直接通过 {host}/api/version 访问到
+$api->version('v1', function ($api) {
+    $api->get('version', function () {
+        return 'v1';
+    });
+});
