@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Transformers\UserTransformer;
 use Illuminate\Http\Request;
 //use App\Http\Controllers\Controller;
 
@@ -28,7 +29,7 @@ class AuthController extends Controller
     //获取用户资料
     public function me()
     {
-        return response()->json(auth('api')->user());
+        return response()->json(auth('api')->user(),new UserTransformer());
     }
 
     //销毁token
