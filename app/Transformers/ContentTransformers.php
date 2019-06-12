@@ -9,11 +9,18 @@ use Modules\Article\Entities\Content;
 
 class ContentTransformers extends TransformerAbstract
 {
+
+    # 定义可以include可使用的字段
+    protected $availableIncludes = ['category'];
+
     public function transform(Content $content)
     {
         return [
             'id' => $content['id'],
             'title' => $content['title']
         ];
+    }
+    public function includeCategory(Content $content){
+        return $this->item($content->category,new CategoryTransformer());
     }
 }
