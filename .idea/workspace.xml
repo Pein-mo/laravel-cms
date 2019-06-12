@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +86,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="303">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ContentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <folding>
+                <element signature="e#44#72#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +175,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="laravel-cms hd:module base" />
       <command text="laravel-cms hd:model base base" />
       <command text="laravel-cms hd:autocreate base  base  基本回复" />
       <command text="laravel-cms migrate" />
@@ -186,6 +199,7 @@
       <command text="laravel-cms make:controller Api/ApiController" />
       <command text="laravel-cms make:controller Api/Controller" />
       <command text="laravel-cms make:controller Api/UserController" />
+      <command text="laravel-cms make:controller Api/ContentController" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -197,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxMenu.php" />
         <option value="$PROJECT_DIR$/app/Services/WeChatService.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Database/Migrations/2019_06_05_065850_create_wx_menus_table.php" />
         <option value="$PROJECT_DIR$/public/addons/Wx/Resources/views/wx_menu/index.blade.php" />
@@ -247,6 +260,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" />
         <option value="$PROJECT_DIR$/config/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ContentController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
@@ -518,12 +532,12 @@
       <workItem from="1560138623392" duration="21214000" />
       <workItem from="1560219359099" duration="628000" />
       <workItem from="1560309880053" duration="1772000" />
-      <workItem from="1560312306924" duration="5749000" />
+      <workItem from="1560312306924" duration="7307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457042000" />
+    <option name="totallyTimeSpent" value="458600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -592,14 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_090052_create_bases_table.php" />
-    <entry file="file://$PROJECT_DIR$/public/addons/Base/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Base/Database/Migrations/2019_06_08_113134_create_bases_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -938,10 +944,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/contents">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="303">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
