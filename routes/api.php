@@ -24,3 +24,10 @@ $api->version('v1', function ($api) {
         return 'v1';
     });
 });
+#如果v2不是默认版本，需要设置请求头
+#Accept: application/[配置项 standardsTree].[配置项 subtype].v2+json
+$api->version('v2', function ($api) {
+    $api->get('version', function () {
+        return 'v2';
+    });
+});
