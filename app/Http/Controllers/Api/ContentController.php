@@ -16,5 +16,8 @@ class ContentController extends Controller
         return $this->response->collection(Content::get(),new ContentTransformers());
     }
 
+    public function show($id){
+        return $this->response->item(Content::find($id),new ContentTransformers());
+    }
 
 }
