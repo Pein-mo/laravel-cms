@@ -20,9 +20,13 @@ $api = app(\Dingo\Api\Routing\Router::class);
 
 #默认配置指定的是v1版本，可以直接通过 {host}/api/version 访问到
 $api->version('v1',['namespace'=>'App\Http\Controllers\Api'], function ($api) {
-    $api->group(['middleware' => 'api.throttle', 'limit' => 2, 'expires' => 1], function ($api) {
-        $api->get('users', 'UserController@users');
-    });
+    //限制访问次数
+//    $api->group(['middleware' => 'api.throttle', 'limit' => 2, 'expires' => 1], function ($api) {
+//        $api->get('users', 'UserController@users');
+//    });
+//    获取用户
+    $api->get('users', 'UserController@users');
+    $api->get('users/{id}','UserController@show');
 //    文章列表
     $api->get('content','ContentController@index');
     $api->get('content/{id}','ContentController@show');
