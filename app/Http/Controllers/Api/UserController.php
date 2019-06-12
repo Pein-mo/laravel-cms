@@ -11,7 +11,7 @@ class UserController extends Controller
 {
     //
     public function users(){
-        return $this->response->array(User::get());
+        return $this->response->collection(User::get(),new UserTransformer());
     }
 
     public function show($id){
