@@ -10,6 +10,6 @@ class SlideController extends Controller
 {
     public function index(){
         $limit = \request()->query('limit',2);
-        return $this->response->array(Slide::limit($limit)->get(),new SlideTransformer());
+        return $this->response->collection(Slide::limit($limit)->get(),new SlideTransformer());
     }
 }
