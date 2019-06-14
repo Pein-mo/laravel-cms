@@ -13,8 +13,6 @@
 Route::group(
     ['middleware' => 'check.mail'],
     function () {
-
-
         Route::get(
             '/',
             function (\Modules\Admin\Entities\Modules $modules) {
