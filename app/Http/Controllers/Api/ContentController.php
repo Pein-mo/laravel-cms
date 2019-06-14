@@ -12,7 +12,8 @@ class ContentController extends Controller
 
 
     public function index(){
-        return $this->response->collection(Content::get(),new ContentTransformers());
+        $limit = \request()->query('limit',5);
+        return $this->response->collection(Content::limit($limit)->get(),new ContentTransformers());
     }
 
     public function show($id){

@@ -30,7 +30,7 @@ class AuthController extends Controller
     public function me()
     {
         return $this->response->item(auth('api')->user(),new UserTransformer());
-        return response()->json(auth('api')->user(),new UserTransformer());
+//        return response()->json(auth('api')->user(),new UserTransformer());
     }
 
     //销毁token
