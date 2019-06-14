@@ -17,7 +17,7 @@ Route::group(
             '/',
             function (\Modules\Admin\Entities\Modules $modules) {
                 $module = $modules->getDefaultModule();
-                dd($module);
+//                dd($module);
                 $class = '\Modules\\'.$module['name'].'\Http\Controllers\HomeController';
                 return app()->build($class)->index();
             }
