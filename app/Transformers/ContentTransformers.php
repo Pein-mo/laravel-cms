@@ -18,7 +18,8 @@ class ContentTransformers extends TransformerAbstract
         return [
             'id' => $content['id'],
             'title' => $content['title'],
-            'pic' => $content['thumb']
+            'pic' => $content['thumb'],
+            'content'=>$content['content'],
         ];
     }
 
