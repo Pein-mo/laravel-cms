@@ -17,10 +17,13 @@ class ContentTransformers extends TransformerAbstract
     {
         return [
             'id' => $content['id'],
-            'title' => $content['title']
+            'title' => $content['title'],
+            'pic' => $content['thumb']
         ];
     }
-    public function includeCategory(Content $content){
-        return $this->item($content->category,new CategoryTransformer());
+
+    public function includeCategory(Content $content)
+    {
+        return $this->item($content->category, new CategoryTransformer());
     }
 }
