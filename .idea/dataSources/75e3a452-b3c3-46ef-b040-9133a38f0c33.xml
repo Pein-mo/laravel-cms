@@ -1444,7 +1444,7 @@ model_type</ColNames>
     <column id="326" parent="236" name="data">
       <Position>4</Position>
       <Comment>图文内容|textarea</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
