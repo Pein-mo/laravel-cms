@@ -14,9 +14,9 @@ class ContentController extends Controller
     public function index(){
         $limit = \request()->query('limit',10);
         if($cid = \request()->query('cid')){
-            $contents = Content::where('category_id',$cid)->paginate($limit);
+            $contents = Content::where('category_id',$cid)->orderBy('id','desc')->paginate($limit);
         }else{
-            $contents = Content::paginate($limit);
+            $contents = Content::orderBy('id','desc')->paginate($limit);
         }
 
         return $this->response->paginator($contents,new ContentTransformers());
