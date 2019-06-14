@@ -12,8 +12,14 @@ class ContentController extends Controller
 
 
     public function index(){
-        $limit = \request()->query('limit',5);
-        return $this->response->collection(Content::limit($limit)->get(),new ContentTransformers());
+        $limit = \request()->query('limit',10);
+        if($cid = \request()->query('cid')){
+            $contents = Content::where('category_id',$cid)->paginate($limit);
+        }else{
+            $contents = Content::paginate($limit);
+        }
+
+        return $this->response->paginator($contents,new ContentTransformers());
     }
 
     public function show($id){
