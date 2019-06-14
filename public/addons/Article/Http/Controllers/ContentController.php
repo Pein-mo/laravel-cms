@@ -13,7 +13,7 @@ class ContentController extends Controller
     //显示列表
     public function index()
     {
-        $data = Content::paginate(10);
+        $data = Content::orderBy('id','desc')->paginate(10);
         return view('article::content.index', compact('data'));
     }
 
