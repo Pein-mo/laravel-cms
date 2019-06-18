@@ -9,6 +9,7 @@
 namespace Modules\Article\Services;
 
 use Blade;
+use Houdunwang\Arr\Arr;
 use Modules\Article\Entities\Content;
 
 class TagService
@@ -59,7 +60,7 @@ return $php;
 <?php
 \$params = $expression;
 \$data = \Modules\Article\Entities\Category::get()->toArray();
-\$data = \houdunwang\arr\Arr::channelList(\$data, 0,"&nbsp;", 'id');
+\$data = \Houdunwang\arr\Arr::channelList(\$data, 0,"&nbsp;", 'id');
 foreach(\$data as \$field):
 \$field['url'] = '/article/lists/'.\$field['id'].'.html';
 ?>

@@ -43,20 +43,20 @@
     </div>
     <div class="container mt-3">
         <div class="row">
-            @category
-            <div class="col-sm-6 mb-3">
-                <div class="card">
-                    <div class="card-header">{{$field['name']}}</div>
-                    <div class="card-block">
-                        <ul class="list-group">
-                            @list(['cid'=>[$field['id']],'limit'=>6])
-                            <a class="list-group-item" href="{{$field['url']}}">{{$field['title']}}</a>
-                            @endList
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            @endCategory
+{{--            @category--}}
+{{--            <div class="col-sm-6 mb-3">--}}
+{{--                <div class="card">--}}
+{{--                    <div class="card-header">{{$field['name']}}</div>--}}
+{{--                    <div class="card-block">--}}
+{{--                        <ul class="list-group">--}}
+{{--                            @list(['cid'=>[$field['id']],'limit'=>6])--}}
+{{--                            <a class="list-group-item" href="{{$field['url']}}">{{$field['title']}}</a>--}}
+{{--                            @endList--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            @endCategory--}}
         </div>
     </div>
     @include('layouts._footer')

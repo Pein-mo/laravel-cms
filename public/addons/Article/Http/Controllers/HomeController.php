@@ -37,4 +37,8 @@ class HomeController extends Controller
     {
         return view('content', compact('content'));
     }
+
+    public function socket(){
+
+    }
 }
