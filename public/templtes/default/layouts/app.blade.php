@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="http://img4.imgtn.bdimg.com/it/u=2153937626,1074119156&fm=26&gp=0.jpg" style="height:40px;">
+                <img src="http://laravel.mo1120.com/uploads/2019-06-18/kiymtHwa.jpg" style="height:40px;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"

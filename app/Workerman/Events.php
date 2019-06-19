@@ -28,8 +28,24 @@ class Events
 
     public static function onMessage($client_id, $message)
     {
+        $message = json_decode($message, true);
+        if (!$message) {
+            return;
+        }
+        switch ($message['type']) {
+            case 'say':
+                $data = [
+                    'type' => 'text',
+                    'id' => $client_id,
+                    'data' => $message['data'],
+
+                ];
+                Gateway::sendToAll(json_encode($data));
+                return;
+
+        }
         // 向所有人发送
-        Gateway::sendToAll("$client_id said $message\r\n");
+
     }
 
     public static function onClose($client_id)

@@ -2,10 +2,717 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3da75c-0116-41ee-b3ec-71a8ced40b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/addons/Article/Services/TagService.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Services/TagService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/templtes/default/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/templtes/default/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/templtes/default/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/templtes/default/layouts/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Config/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Config/menus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Config/permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Console/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Database/Migrations/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Database/Seeders/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Database/Seeders/SocketDatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Database/factories/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Entities/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Http/Controllers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Http/Controllers/SocketController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Http/Middleware/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Http/Requests/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Http/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Providers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Providers/SocketServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/assets/js/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/assets/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/lang/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/ali/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/ali/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/ali/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/ali/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/ali/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/coupon-new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/coupon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/h5app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/rank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/css/themes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/iconfont2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/fonts/msyh.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/img/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/img/132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/jqueryFileUpload/css/jquery.fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/jqueryFileUpload/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/jqueryFileUpload/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/ajaxfileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/Moxie.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/Ydb/YdbOnline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/ajaxfileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/Area.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/AreaNew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/cascade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/10/100100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/11/110100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/12/120100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/130900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/131000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/13/131100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/140900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/141000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/14/141100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/150900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/152200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/152500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/15/152900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/210900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/211000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/211100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/211200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/211300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/21/211400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/220800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/22/222400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/230900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/231000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/231100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/231200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/23/232700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/31/310100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/320900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/321000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/321100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/321200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/32/321300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/330900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/331000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/33/331100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/340800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/34/341800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/35/350900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/360900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/361000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/36/361100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/370900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/37/371700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410881.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/410900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/41/411700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/420900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/421000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/421100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/421200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/421300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/422800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/429004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/429005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/429006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/42/429021.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/430900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/431000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/431100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/431200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/431300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/43/433100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/440900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/441900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/442000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/445100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/445200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/44/445300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/450900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/451000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/451100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/451200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/451300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/45/451400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/460100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/460200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/460300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469005.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469006.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469025.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469026.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469027.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469028.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469033.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469034.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469035.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/46/469036.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/50/500100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/510900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/511900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/512000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/513200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/513300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/51/513400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/520100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/520200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/520300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/520400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/522200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/522300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/522400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/522600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/52/522700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/530900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/532300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/532500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/532600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/532800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/532900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/533100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/533300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/53/533400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/540100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/54/542600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/610900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/61/611000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/620900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/621000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/621100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/621200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/622900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/62/623000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/630100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/63/632800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/64/640100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/64/640200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/64/640300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/64/640400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/64/640500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/650100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/650200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/652900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/653000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/653100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/653200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/654000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/654200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/654300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/659001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/659002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/659003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/65/659004.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/710900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/711900.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712400.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712500.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712600.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712700.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/71/712800.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/81/810100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/81/810200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/81/810300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/82/820100.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/82/820200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/area/list/82/820300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/bootbox/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/bootstrap/bootstrap-suggest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/css/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/img/picture-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/img/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/assets/js/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/dist/cropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/dist/cropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/dist/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/dist/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/crop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/img/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/examples/crop-avatar/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/index.bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/.csscomb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/cropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/listen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/js/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/less/cropper.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/less/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/less/utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/cropper/src/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/echarts/echarts-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/flexible/flexible.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/flexible/flexible_css.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/css/foxui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/css/foxui.min2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/css/foxui2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/js/foxui.citydata.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/js/foxui.citydatanew.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/js/foxui.extends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/js/foxui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/foxui/js/foxui.picker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/ajaxfileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/confirm/jquery-confirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/confirm/jquery-confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/contextMenu/jquery.contextMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/contextMenu/jquery.contextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery-ui-1.10.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery-ui-1.10.3.min.js.new" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.gcjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.touchslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/nestable/nestable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/jquery/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/dump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/jquery/all_runtimes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/jquery/jquery_ui_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/jquery/queue_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/jquery/s3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/examples/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/Moxie.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/Moxie.xap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ku_IQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/uk_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/i18n/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/css/jquery.plupload.queue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/backgrounds.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/buttons-disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/done.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/img/transp50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/jquery.plupload.queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.plupload.queue/jquery.plupload.queue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.ui.plupload/css/jquery.ui.plupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.ui.plupload/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.ui.plupload/img/plupload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.ui.plupload/jquery.ui.plupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/jquery.ui.plupload/jquery.ui.plupload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/moxie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/moxie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/plupload.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/plupload.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/js/plupload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/plupload-2.3.3/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/qiniu/qiniu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/select2/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/star-rating/star-rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/star-rating/star-rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/swipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/swiper/swiper-3.4.2.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/swiper/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/swiper/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/swiper/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/tmodjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/tooltipbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/myconfig-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/myconfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/web_socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/Tests/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/module.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addons/Socket/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Workerman/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Workerman/Events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/addons/Article/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/addons/Article/Http/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/templtes/default/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/templtes/default/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,70 +757,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/public/addons/Socket/Http/Controllers/SocketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templtes/default/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Article/Services/TagService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <element signature="e#124#134#0#PHP" expanded="true" />
+                <element signature="e#51#79#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/templtes/default/layouts/app.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Workerman/Events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="420">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templtes/default/layouts/_footer.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Console/Commands/WorkermanCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/addons/Article/Providers/ArticleServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="543">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="33" />
               <folding>
-                <element signature="e#45#84#0#PHP" expanded="true" />
+                <element signature="e#42#75#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/addons/Socket/Resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -147,7 +827,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="laravel-cms hd:module News" />
       <command text="laravel-cms hd:model News News" />
       <command text="laravel-cms migrate" />
       <command text="laravel-cms hd:autocreate News News 图文回复" />
@@ -172,6 +851,7 @@
       <command text="laravel-cms migrate:refresh --seed " />
       <command text="laravel-cms module:migrate-refresh  Article --seed " />
       <command text="laravel-cms module:migrate-refresh  Admin --seed " />
+      <command text="laravel-cms hd:module Socket" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -180,11 +860,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/addons/Base/Http/Controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-        <option value="$PROJECT_DIR$/public/addons/Wx/Database/Seeders/WxConfigTableSeeder.php" />
-        <option value="$PROJECT_DIR$/public/addons/Wx/Entities/WxKeyword.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/WeChatController.php" />
         <option value="$PROJECT_DIR$/public/addons/News/Config/menus.php" />
         <option value="$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/_menus_header.blade.php" />
         <option value="$PROJECT_DIR$/public/addons/News/Http/routes.php" />
@@ -223,14 +898,19 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_04_29_091338_create_admins_table.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/WorkermanCommand.php" />
-        <option value="$PROJECT_DIR$/app/Workerman/Events.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/vendor/houdunwang/arr/src/Arr.php" />
         <option value="$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/public/addons/Article/Services/TagService.php" />
         <option value="$PROJECT_DIR$/public/templtes/default/index.blade.php" />
         <option value="$PROJECT_DIR$/public/templtes/default/layouts/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Article/Http/routes.php" />
+        <option value="$PROJECT_DIR$/public/addons/Socket/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/templtes/default/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Socket/Resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/addons/Socket/Http/Controllers/SocketController.php" />
+        <option value="$PROJECT_DIR$/public/addons/Socket/Resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Workerman/Events.php" />
       </list>
     </option>
   </component>
@@ -371,34 +1051,13 @@
             <path>
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="templtes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="templtes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="templtes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Workerman" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,7 +1071,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/addons/Socket/Resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -422,18 +1081,18 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WWW\code\laravel-cms\public\addons\Socket\Resources\views" />
+      <recent name="D:\WWW\code\laravel-cms\public\addons\Socket\Resources\views\layouts" />
+      <recent name="D:\WWW\code\laravel-cms\config" />
+      <recent name="D:\WWW\code\laravel-cms\public\addons\News" />
+      <recent name="D:\WWW\code\laravel-cms\public\addons\Wx\Resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WWW\code\laravel-cms\public" />
       <recent name="D:\WWW\code\laravel-cms\Modules\Article\Database\Migrations" />
       <recent name="D:\WWW\code\laravel-cms\Modules\Article\Database\factories" />
       <recent name="D:\WWW\code\laravel-cms\Modules\Admin\Resources\views\layouts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WWW\code\laravel-cms\config" />
-      <recent name="D:\WWW\code\laravel-cms\public\addons\News" />
-      <recent name="D:\WWW\code\laravel-cms\public\addons\Wx\Resources\views" />
-      <recent name="D:\WWW\code\laravel-cms\public\addons\Admin\Entities" />
-      <recent name="D:\WWW\code\laravel-cms\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -520,18 +1179,19 @@
       <workItem from="1560745476620" duration="596000" />
       <workItem from="1560757476073" duration="240000" />
       <workItem from="1560757785716" duration="733000" />
-      <workItem from="1560852353980" duration="5108000" />
+      <workItem from="1560852353980" duration="12447000" />
+      <workItem from="1560913122875" duration="2024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492408000" />
+    <option name="totallyTimeSpent" value="501771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2297486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2325419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -604,95 +1264,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#44#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="e#31#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MailCheckMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/console.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/ContentTransformers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#38#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Database/Seeders/SlideSeederTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Database/factories/SlideFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/addons/Article/Database/Migrations/2018_07_21_115739_create_slides_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -838,27 +1409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/WorkermanCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#42#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://75e3a452-b3c3-46ef-b040-9133a38f0c33/schema/laravelcms/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Workerman/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -873,13 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -937,24 +1484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templtes/default/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templtes/default/layouts/_footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -968,10 +1501,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Article/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Http/Controllers/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templtes/default/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/templtes/default/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        <state relative-caret-position="-100">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="374" selection-start-line="374" selection-end-line="374" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Admin/Resources/views/module/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/News/Resources/views/news/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1899" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Resources/views/newcj/js/dist/Ydb/YdbOnline.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/WorkermanCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="e#42#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Http/Controllers/SocketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#51#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/addons/Socket/Resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Workerman/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
     </entry>
